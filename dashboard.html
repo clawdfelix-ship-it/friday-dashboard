@@ -180,6 +180,26 @@
         .weather-desc {
             color: #888;
         }
+        .completed-task {
+            display: none;
+        }
+        .show-completed .completed-task {
+            display: flex;
+        }
+        .toggle-btn {
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 6px;
+            color: #888;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .toggle-btn:hover {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -202,43 +222,17 @@
             <!-- Summary -->
 
             <!-- Today's Tasks -->
-            <div class="card">
-                <h2>📋 任務清單</h2>
-                <div style="margin-bottom: 15px; padding: 10px; background: rgba(0,255,136,0.1); border-radius: 8px; border-left: 3px solid #00ff88;">
-                    <span style="color: #00ff88;">✅ 完成: 7項</span> | 
-                    <span style="color: #ffaa00;">🎯 Pending: 5項</span>
+            <div class="card" id="taskCard">
+                <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <h2>📋 待處理任務</h2>
+                    <button class="toggle-btn" onclick="toggleCompleted()">👁️ 顯示已完成</button>
                 </div>
-                <ul class="task-list">
-                    <li class="task-item">
-                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
-                        <div class="task-text">✅ Friday Email System - clawdfelix@gmail.com</div>
-                        <div class="task-time">完成</div>
-                    </li>
-                    <li class="task-item">
-                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
-                        <div class="task-text">✅ Friday_email_bot - Detect "要補" messages</div>
-                        <div class="task-time">完成</div>
-                    </li>
-                    <li class="task-item">
-                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
-                        <div class="task-text">✅ Queue Bot - @Javstarmeet_queue_bot</div>
-                        <div class="task-time">完成</div>
-                    </li>
-                    <li class="task-item">
-                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
-                        <div class="task-text">✅ David Restock Test - Email sent to MASA</div>
-                        <div class="task-time">完成</div>
-                    </li>
-                    <li class="task-item">
-                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
-                        <div class="task-text">✅ AV Actress Research - Top 20 list</div>
-                        <div class="task-time">完成</div>
-                    </li>
-                    <li class="task-item">
-                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
-                        <div class="task-text">✅ Deploy Dashboard to Vercel</div>
-                        <div class="task-time">完成</div>
-                    </li>
+                <div style="margin-bottom: 15px; padding: 10px; background: rgba(255,170,0,0.1); border-radius: 8px; border-left: 3px solid #ffaa00;">
+                    <span style="color: #ffaa00;">🎯 Pending: 5項</span> | 
+                    <span style="color: #666;">✅ 完成: 7項</span>
+                </div>
+                <ul class="task-list" id="taskList">
+                    <!-- Pending Tasks (shown) -->
                     <li class="task-item">
                         <div class="task-checkbox" style="border-color: #ffaa00;"></div>
                         <div class="task-text">🎯 1809 Schedule System - 6 events tracking</div>
@@ -263,6 +257,37 @@
                         <div class="task-checkbox" style="border-color: #ffaa00;"></div>
                         <div class="task-text">🎯 Product Catalog Bot</div>
                         <div class="task-time">Pending</div>
+                    </li>
+                    <!-- Completed Tasks (hidden by default) -->
+                    <li class="task-item completed-task">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Friday Email System - clawdfelix@gmail.com</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item completed-task">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Friday_email_bot - Detect "要補" messages</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item completed-task">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Queue Bot - @Javstarmeet_queue_bot</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item completed-task">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ David Restock Test - Email sent to MASA</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item completed-task">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ AV Actress Research - Top 20 list</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item completed-task">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Deploy Dashboard to Vercel</div>
+                        <div class="task-time">完成</div>
                     </li>
                 </ul>
             </div>
@@ -342,6 +367,17 @@
     </div>
 
     <script>
+        // Toggle completed tasks
+        let showingCompleted = false;
+        function toggleCompleted() {
+            const taskList = document.getElementById('taskList');
+            const btn = document.querySelector('.toggle-btn');
+            
+            showingCompleted = !showingCompleted;
+            taskList.classList.toggle('show-completed', showingCompleted);
+            btn.textContent = showingCompleted ? '🙈 隱藏已完成' : '👁️ 顯示已完成';
+        }
+
         // Update date
         const now = new Date();
         const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };

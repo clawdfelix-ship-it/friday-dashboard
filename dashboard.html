@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friday Dashboard - Felix's Business</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .dashboard {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #00d4ff;
+        }
+        .date {
+            color: #888;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .card h2 {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .stat {
+            font-size: 48px;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+        .stat.green { color: #00ff88; }
+        .stat.yellow { color: #ffaa00; }
+        .stat.red { color: #ff6666; }
+        .stat-label {
+            font-size: 14px;
+            color: #888;
+            margin-top: 5px;
+        }
+        .task-list {
+            list-style: none;
+        }
+        .task-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .task-item:last-child {
+            border-bottom: none;
+        }
+        .task-checkbox {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid #00d4ff;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        .task-text {
+            flex: 1;
+        }
+        .task-time {
+            color: #888;
+            font-size: 12px;
+        }
+        .company-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .company-item {
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .company-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .company-desc {
+            font-size: 12px;
+            color: #888;
+        }
+        .progress-bar {
+            height: 8px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        .inventory-summary {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .inv-item {
+            text-align: center;
+            padding: 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 10px;
+        }
+        .inv-num {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .inv-label {
+            font-size: 12px;
+            color: #888;
+        }
+        .quick-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .link-btn {
+            padding: 10px 20px;
+            background: rgba(0,212,255,0.1);
+            border: 1px solid rgba(0,212,255,0.3);
+            border-radius: 8px;
+            color: #00d4ff;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        .link-btn:hover {
+            background: rgba(0,212,255,0.2);
+            transform: translateY(-2px);
+        }
+        .weather {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .weather-icon {
+            font-size: 48px;
+        }
+        .weather-temp {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .weather-desc {
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <div>
+                <h1>💙 Friday Dashboard</h1>
+                <p class="date" id="currentDate"></p>
+            </div>
+            <div class="weather">
+                <span class="weather-icon">🌤️</span>
+                <div>
+                    <div class="weather-temp">24°C</div>
+                    <div class="weather-desc">香港 - 天晴</div>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid">
+            <!-- Today's Summary -->
+            <div class="card">
+                <h2>📊 今日摘要</h2>
+                <div class="stat">5</div>
+                <div class="stat-label">待處理任務</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 60%"></div>
+                </div>
+                <p style="color: #888; margin-top: 10px;">60% 完成</p>
+            </div>
+
+            <!-- Inventory Status -->
+            <div class="card">
+                <h2>📦 庫存狀態</h2>
+                <div class="inventory-summary">
+                    <div class="inv-item">
+                        <div class="inv-num">1,182</div>
+                        <div class="inv-label">總SKU</div>
+                    </div>
+                    <div class="inv-item">
+                        <div class="inv-num green">664</div>
+                        <div class="inv-label">已Match</div>
+                    </div>
+                    <div class="inv-item">
+                        <div class="inv-num yellow">518</div>
+                        <div class="inv-label">未分類</div>
+                    </div>
+                    <div class="inv-item">
+                        <div class="inv-num red">176+</div>
+                        <div class="inv-label">需補資料</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Today's Tasks -->
+            <div class="card">
+                <h2>📋 今日任務</h2>
+                <ul class="task-list">
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-text">向 MASA 落 Order 補貨</div>
+                        <div class="task-time">每月15,30日</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-text">Download HKTVmall Sales Report</div>
+                        <div class="task-time">每晚 11:58</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-text">Check MASA/Ricky Emails</div>
+                        <div class="task-time">朝早9點</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-text">Update 庫存分類</div>
+                        <div class="task-time">進行中</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox"></div>
+                        <div class="task-text">Review 1809 Co Ltd 活動安排</div>
+                        <div class="task-time">待處理</div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Business Overview -->
+            <div class="card">
+                <h2>🏢 Business Overview</h2>
+                <div class="company-grid">
+                    <div class="company-item">
+                        <div class="company-name">香港浩洋</div>
+                        <div class="company-desc">情趣用品代理 - MASA/Ricky</div>
+                    </div>
+                    <div class="company-item">
+                        <div class="company-name">1809 Co Ltd</div>
+                        <div class="company-desc">女優見面會 - Vincent/呀唯</div>
+                    </div>
+                    <div class="company-item">
+                        <div class="company-name">Pegasus Trading</div>
+                        <div class="company-desc">HKTVmall 電商 - Malcolm/David</div>
+                    </div>
+                    <div class="company-item">
+                        <div class="company-name">Dreative Ltd</div>
+                        <div class="company-desc">Zenex-Sports 球衣</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="card">
+                <h2>🔗 Quick Links</h2>
+                <div class="quick-links">
+                    <a href="https://merchant.shoalter.com/order-management/reports" class="link-btn" target="_blank">HKTVmall Reports</a>
+                    <a href="https://mail.zoho.com" class="link-btn" target="_blank">Zoho Mail</a>
+                    <a href="https://mail.google.com" class="link-btn" target="_blank">Gmail</a>
+                    <a href="https://github.com" class="link-btn" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Reminders -->
+            <div class="card">
+                <h2>🔔 Reminders</h2>
+                <ul class="task-list">
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">💰 Check Bank Statements</div>
+                        <div class="task-time">每月1號</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ff6666;"></div>
+                        <div class="task-text">📅 MASA Order Deadline</div>
+                        <div class="task-time">1月15日</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #00ff88;"></div>
+                        <div class="task-text">🎬 1809 Co Ltd Event</div>
+                        <div class="task-time">待確認日期</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Update date
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+        document.getElementById('currentDate').textContent = now.toLocaleDateString('zh-HK', options);
+
+        // Click to toggle task
+        document.querySelectorAll('.task-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('click', function() {
+                this.style.background = this.style.background ? '' : '#00d4ff';
+                this.style.borderColor = this.style.background ? '#00d4ff' : '';
+            });
+        });
+
+        // Auto refresh every 5 minutes
+        setTimeout(() => {
+            location.reload();
+        }, 300000);
+    </script>
+</body>
+</html>

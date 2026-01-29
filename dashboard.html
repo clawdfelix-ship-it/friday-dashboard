@@ -190,77 +190,116 @@
                 <p class="date" id="currentDate"></p>
             </div>
             <div class="weather">
-                <span class="weather-icon">🌤️</span>
+                <span class="weather-icon">🚀</span>
                 <div>
-                    <div class="weather-temp">24°C</div>
-                    <div class="weather-desc">香港 - 天晴</div>
+                    <div class="weather-temp">7</div>
+                    <div class="weather-desc">Completed Tasks</div>
                 </div>
             </div>
         </header>
 
         <div class="grid">
-            <!-- Today's Summary -->
+            <!-- Summary -->
             <div class="card">
-                <h2>📊 今日摘要</h2>
-                <div class="stat">5</div>
-                <div class="stat-label">待處理任務</div>
+                <h2>📊 任務狀態</h2>
+                <div class="stat green">7</div>
+                <div class="stat-label">已完成</div>
                 <div class="progress-bar">
-                    <div class="progress-fill" style="width: 60%"></div>
+                    <div class="progress-fill" style="width: 58%"></div>
                 </div>
-                <p style="color: #888; margin-top: 10px;">60% 完成</p>
+                <p style="color: #888; margin-top: 10px;">58% 完成 (7/12)</p>
             </div>
 
-            <!-- Inventory Status -->
+            <!-- Auction Summary -->
             <div class="card">
-                <h2>📦 庫存狀態</h2>
+                <h2>📦 Auction Orders</h2>
                 <div class="inventory-summary">
                     <div class="inv-item">
-                        <div class="inv-num">1,182</div>
-                        <div class="inv-label">總SKU</div>
+                        <div class="inv-num">30</div>
+                        <div class="inv-label">客戶</div>
                     </div>
                     <div class="inv-item">
-                        <div class="inv-num green">664</div>
-                        <div class="inv-label">已Match</div>
+                        <div class="inv-num">113</div>
+                        <div class="inv-label">件貨品</div>
                     </div>
                     <div class="inv-item">
-                        <div class="inv-num yellow">518</div>
-                        <div class="inv-label">未分類</div>
+                        <div class="inv-num green">$35,386</div>
+                        <div class="inv-label">總額</div>
                     </div>
                     <div class="inv-item">
-                        <div class="inv-num red">176+</div>
-                        <div class="inv-label">需補資料</div>
+                        <div class="inv-num yellow">待追蹤</div>
+                        <div class="inv-label">Item詳情</div>
                     </div>
                 </div>
             </div>
 
             <!-- Today's Tasks -->
             <div class="card">
-                <h2>📋 今日任務</h2>
+                <h2>📋 任務清單</h2>
+                <div style="margin-bottom: 15px; padding: 10px; background: rgba(0,255,136,0.1); border-radius: 8px; border-left: 3px solid #00ff88;">
+                    <span style="color: #00ff88;">✅ 完成: 7項</span> | 
+                    <span style="color: #ffaa00;">🎯 Pending: 5項</span>
+                </div>
                 <ul class="task-list">
                     <li class="task-item">
-                        <div class="task-checkbox"></div>
-                        <div class="task-text">向 MASA 落 Order 補貨</div>
-                        <div class="task-time">每月15,30日</div>
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Friday Email System - clawdfelix@gmail.com</div>
+                        <div class="task-time">完成</div>
                     </li>
                     <li class="task-item">
-                        <div class="task-checkbox"></div>
-                        <div class="task-text">Download HKTVmall Sales Report</div>
-                        <div class="task-time">每晚 11:58</div>
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Friday_email_bot - Detect "要補" messages</div>
+                        <div class="task-time">完成</div>
                     </li>
                     <li class="task-item">
-                        <div class="task-checkbox"></div>
-                        <div class="task-text">Check MASA/Ricky Emails</div>
-                        <div class="task-time">朝早9點</div>
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Queue Bot - @Javstarmeet_queue_bot</div>
+                        <div class="task-time">完成</div>
                     </li>
                     <li class="task-item">
-                        <div class="task-checkbox"></div>
-                        <div class="task-text">Update 庫存分類</div>
-                        <div class="task-time">進行中</div>
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ David Restock Test - Email sent to MASA</div>
+                        <div class="task-time">完成</div>
                     </li>
                     <li class="task-item">
-                        <div class="task-checkbox"></div>
-                        <div class="task-text">Review 1809 Co Ltd 活動安排</div>
-                        <div class="task-time">待處理</div>
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ AV Actress Research - Top 20 list</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Auction Orders - 30 customers, HK$35,386</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="background: #00ff88; border-color: #00ff88;"></div>
+                        <div class="task-text">✅ Deploy Dashboard to Vercel</div>
+                        <div class="task-time">完成</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">🎯 1809 Schedule System - 6 events tracking</div>
+                        <div class="task-time">Pending</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">🎯 Auction Item Details - Customer + Item + Price</div>
+                        <div class="task-time">Pending</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">🎯 Queue Bot - Turn OFF Group Privacy</div>
+                        <div class="task-time">Pending</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">🎯 VVIP Bot Testing</div>
+                        <div class="task-time">Pending</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">🎯 Product Catalog Bot</div>
+                        <div class="task-time">Pending</div>
                     </li>
                 </ul>
             </div>
@@ -270,7 +309,7 @@
                 <h2>🏢 Business Overview</h2>
                 <div class="company-grid">
                     <div class="company-item">
-                        <div class="company-name">香港浩洋</div>
+                        <div class="company-name">香港浩洋 (HWG)</div>
                         <div class="company-desc">情趣用品代理 - MASA/Ricky</div>
                     </div>
                     <div class="company-item">
@@ -282,8 +321,8 @@
                         <div class="company-desc">HKTVmall 電商 - Malcolm/David</div>
                     </div>
                     <div class="company-item">
-                        <div class="company-name">Dreative Ltd</div>
-                        <div class="company-desc">Zenex-Sports 球衣</div>
+                        <div class="company-name">JAVStarMeet</div>
+                        <div class="company-desc">VVIP會員系統 - Queue Bot</div>
                     </div>
                 </div>
             </div>
@@ -292,31 +331,47 @@
             <div class="card">
                 <h2>🔗 Quick Links</h2>
                 <div class="quick-links">
-                    <a href="https://merchant.shoalter.com/order-management/reports" class="link-btn" target="_blank">HKTVmall Reports</a>
-                    <a href="https://mail.zoho.com" class="link-btn" target="_blank">Zoho Mail</a>
+                    <a href="https://clawd-kohl-five.vercel.app" class="link-btn" target="_blank">💙 Dashboard</a>
+                    <a href="https://merchant.shoalter.com/order-management/reports" class="link-btn" target="_blank">HKTVmall</a>
                     <a href="https://mail.google.com" class="link-btn" target="_blank">Gmail</a>
-                    <a href="https://github.com" class="link-btn" target="_blank">GitHub</a>
+                    <a href="https://github.com/clawdfelix-ship-it/friday-dashboard" class="link-btn" target="_blank">GitHub</a>
+                    <a href="https://vercel.com" class="link-btn" target="_blank">Vercel</a>
                 </div>
             </div>
 
             <!-- Reminders -->
             <div class="card">
-                <h2>🔔 Reminders</h2>
+                <h2>🔔 1809 活動日程 (2026)</h2>
                 <ul class="task-list">
                     <li class="task-item">
                         <div class="task-checkbox" style="border-color: #ffaa00;"></div>
-                        <div class="task-text">💰 Check Bank Statements</div>
-                        <div class="task-time">每月1號</div>
+                        <div class="task-text">Feb 7-8 百永さりな</div>
+                        <div class="task-time">Pending</div>
                     </li>
                     <li class="task-item">
-                        <div class="task-checkbox" style="border-color: #ff6666;"></div>
-                        <div class="task-text">📅 MASA Order Deadline</div>
-                        <div class="task-time">1月15日</div>
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">Feb 14-15 篠原いよ</div>
+                        <div class="task-time">Pending</div>
                     </li>
                     <li class="task-item">
-                        <div class="task-checkbox" style="border-color: #00ff88;"></div>
-                        <div class="task-text">🎬 1809 Co Ltd Event</div>
-                        <div class="task-time">待確認日期</div>
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">Mar 14-15 藤森里穗</div>
+                        <div class="task-time">Pending</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">Mar 21-22 森日向子</div>
+                        <div class="task-time">Pending</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">Apr 11-12 神木麗</div>
+                        <div class="task-time">Pending</div>
+                    </li>
+                    <li class="task-item">
+                        <div class="task-checkbox" style="border-color: #ffaa00;"></div>
+                        <div class="task-text">Apr 18-19 美園和花</div>
+                        <div class="task-time">Pending</div>
                     </li>
                 </ul>
             </div>

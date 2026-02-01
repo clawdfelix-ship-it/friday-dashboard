@@ -12,7 +12,9 @@ import {
   ArrowRight,
   ImagePlus,
   Loader2,
-  CheckCircle
+  CheckCircle,
+  ChevronLeft,
+  ChevronRight
 } from 'lucide-react'
 import Link from 'next/link'
 
@@ -28,6 +30,7 @@ interface InventoryItem {
 }
 
 const LOW_STOCK_THRESHOLD = 20
+const ITEMS_PER_PAGE = 30
 
 export default function AlertsPage() {
   const [isLoading, setIsLoading] = useState(false)
@@ -37,6 +40,7 @@ export default function AlertsPage() {
   const [stockStatus, setStockStatus] = useState('All') // 'All', 'OutOfStock', 'LowStock'
   const [lastUpdated, setLastUpdated] = useState<string | null>(null)
   const [fetchingImages, setFetchingImages] = useState<Record<string, boolean>>({})
+  const [currentPage, setCurrentPage] = useState(1)
 
   const loadData = () => {
     setIsLoading(true)
@@ -75,6 +79,11 @@ export default function AlertsPage() {
     loadData()
   }, [])
 
+  // Reset page when filters change
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [searchTerm, selectedBrand, stockStatus])
+
   const handleFetchImage = async (item: InventoryItem) => {
     if (fetchingImages[item.janCode]) return;
 
@@ -96,7 +105,6 @@ export default function AlertsPage() {
            p.janCode === item.janCode ? { ...p, imageUrl: data.imageUrl } : p
          ))
       } else {
-        // Optional: show error toast
         console.error('Fetch image error:', data.error)
       }
     } catch (err) {
@@ -140,6 +148,20 @@ export default function AlertsPage() {
 
   const outOfStockCount = filteredItems.filter(i => i.totalStock === 0).length
   const lowStockCount = filteredItems.length - outOfStockCount
+
+  // Pagination Logic
+  const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE)
+  const paginatedItems = filteredItems.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE, 
+    currentPage * ITEMS_PER_PAGE
+  )
+
+  const handlePageChange = (newPage: number) => {
+    if (newPage >= 1 && newPage <= totalPages) {
+      setCurrentPage(newPage)
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 pb-12">
@@ -262,7 +284,7 @@ export default function AlertsPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
-                {filteredItems.length === 0 ? (
+                {paginatedItems.length === 0 ? (
                   <tr>
                     <td colSpan={5} className="px-6 py-12 text-center text-gray-500">
                       <div className="flex flex-col items-center justify-center gap-3">
@@ -273,7 +295,7 @@ export default function AlertsPage() {
                     </td>
                   </tr>
                 ) : (
-                  filteredItems.map((item) => (
+                  paginatedItems.map((item) => (
                     <tr key={item.productId} className="hover:bg-gray-50 transition-colors">
                       <td className="px-6 py-4">
                         <div className="flex items-center gap-4">
@@ -284,12 +306,6 @@ export default function AlertsPage() {
                                 alt={item.productName}
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
-                                  // If error, show fetch button by hiding img and showing fallback
-                                  (e.target as HTMLElement).style.display = 'none';
-                                  // This assumes the sibling (fallback) will show up if img is hidden? 
-                                  // No, react structure doesn't work that way easily without state.
-                                  // But for now let's just use placeholder logic.
-                                  // Actually, better to set state or use a fallback src.
                                   (e.target as HTMLImageElement).src = '/placeholder.png'
                                 }}
                               />
@@ -366,6 +382,90 @@ export default function AlertsPage() {
               </tbody>
             </table>
           </div>
+
+          {/* Pagination Controls */}
+          {filteredItems.length > 0 && (
+            <div className="bg-gray-50 px-6 py-4 border-t flex items-center justify-between">
+              <div className="text-sm text-gray-500">
+                顯示 {Math.min(filteredItems.length, (currentPage - 1) * ITEMS_PER_PAGE + 1)} - {Math.min(filteredItems.length, currentPage * ITEMS_PER_PAGE)} 筆，共 {filteredItems.length} 筆
+              </div>
+              
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className="p-2 border rounded-lg hover:bg-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                </button>
+                
+                {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                  // Logic to show pages around current page
+                  let pageNum = i + 1;
+                  if (totalPages > 5) {
+                    if (currentPage > 3) {
+                      pageNum = currentPage - 3 + i;
+                    }
+                    if (pageNum > totalPages) {
+                      pageNum = totalPages - 4 + i;
+                    }
+                  }
+                  
+                  // Simple logic for now: show first 5 or logic above is a bit complex for inline.
+                  // Let's stick to a simpler sliding window or just simple previous/next for mobile friendliness
+                  // But user asked for pagination, usually page numbers are nice.
+                  
+                  // Let's implement a simpler "Page X of Y" or just Prev/Next with Page Input?
+                  // Or just render a few page numbers.
+                  
+                  return null; // Using simpler layout below
+                })}
+                
+                <div className="flex items-center gap-1">
+                  {/* First Page */}
+                  {currentPage > 2 && (
+                     <>
+                        <button
+                          onClick={() => handlePageChange(1)}
+                          className={`w-8 h-8 flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-white`}
+                        >
+                          1
+                        </button>
+                        {currentPage > 3 && <span className="text-gray-400">...</span>}
+                     </>
+                  )}
+
+                  {/* Current Page Window */}
+                   <button
+                    className={`w-8 h-8 flex items-center justify-center rounded-lg text-sm font-medium bg-red-600 text-white shadow-sm`}
+                  >
+                    {currentPage}
+                  </button>
+
+                  {/* Last Page */}
+                  {currentPage < totalPages - 1 && (
+                     <>
+                        {currentPage < totalPages - 2 && <span className="text-gray-400">...</span>}
+                        <button
+                          onClick={() => handlePageChange(totalPages)}
+                          className={`w-8 h-8 flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-white`}
+                        >
+                          {totalPages}
+                        </button>
+                     </>
+                  )}
+                </div>
+
+                <button
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className="p-2 border rounded-lg hover:bg-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                >
+                  <ChevronRight className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

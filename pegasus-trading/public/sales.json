@@ -1,0 +1,11 @@
+{
+  "records": [],
+  "summary": {
+    "totalSales": 0,
+    "totalOrders": 0,
+    "totalQuantity": 0,
+    "avgOrderValue": 0
+  },
+  "count": 0,
+  "lastUpdated": ""
+}

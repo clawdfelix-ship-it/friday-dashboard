@@ -9,7 +9,10 @@ import {
   TrendingUp,
   ShoppingCart,
   Filter,
-  ArrowRight
+  ArrowRight,
+  ImagePlus,
+  Loader2,
+  CheckCircle
 } from 'lucide-react'
 import Link from 'next/link'
 
@@ -33,6 +36,7 @@ export default function AlertsPage() {
   const [selectedBrand, setSelectedBrand] = useState('All')
   const [stockStatus, setStockStatus] = useState('All') // 'All', 'OutOfStock', 'LowStock'
   const [lastUpdated, setLastUpdated] = useState<string | null>(null)
+  const [fetchingImages, setFetchingImages] = useState<Record<string, boolean>>({})
 
   const loadData = () => {
     setIsLoading(true)
@@ -70,6 +74,44 @@ export default function AlertsPage() {
   useEffect(() => {
     loadData()
   }, [])
+
+  const handleFetchImage = async (item: InventoryItem) => {
+    if (fetchingImages[item.janCode]) return;
+
+    setFetchingImages(prev => ({ ...prev, [item.janCode]: true }))
+    
+    try {
+      const res = await fetch('/api/products/fetch-image', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          productName: item.brandName + " " + item.productName,
+          sku: item.janCode 
+        })
+      })
+      const data = await res.json()
+      
+      if (data.success && data.imageUrl) {
+         setInventory(prev => prev.map(p => 
+           p.janCode === item.janCode ? { ...p, imageUrl: data.imageUrl } : p
+         ))
+      } else {
+        // Optional: show error toast
+        console.error('Fetch image error:', data.error)
+      }
+    } catch (err) {
+      console.error('Fetch image failed', err)
+    } finally {
+      setFetchingImages(prev => ({ ...prev, [item.janCode]: false }))
+    }
+  }
+
+  const getImageUrl = (url?: string) => {
+    if (!url) return '';
+    if (url.startsWith('http')) return url;
+    if (url.startsWith('/')) return url;
+    return `/images/products/${url}`;
+  }
 
   // Base low stock items (unfiltered by UI controls)
   const baseLowStockItems = inventory.filter(item => item.totalStock <= LOW_STOCK_THRESHOLD)
@@ -224,7 +266,7 @@ export default function AlertsPage() {
                   <tr>
                     <td colSpan={5} className="px-6 py-12 text-center text-gray-500">
                       <div className="flex flex-col items-center justify-center gap-3">
-                        <CheckCircleIcon className="w-12 h-12 text-green-500" />
+                        <CheckCircle className="w-12 h-12 text-green-500" />
                         <p className="text-lg font-medium text-gray-900">沒有符合的產品</p>
                         <p>嘗試調整篩選條件</p>
                       </div>
@@ -235,13 +277,19 @@ export default function AlertsPage() {
                     <tr key={item.productId} className="hover:bg-gray-50 transition-colors">
                       <td className="px-6 py-4">
                         <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 rounded-lg bg-gray-100 flex-shrink-0 overflow-hidden border">
+                          <div className="w-12 h-12 rounded-lg bg-gray-100 flex-shrink-0 overflow-hidden border relative group">
                             {item.imageUrl ? (
                               <img 
-                                src={`/images/products/${encodeURIComponent(item.imageUrl)}`} 
+                                src={getImageUrl(item.imageUrl)} 
                                 alt={item.productName}
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
+                                  // If error, show fetch button by hiding img and showing fallback
+                                  (e.target as HTMLElement).style.display = 'none';
+                                  // This assumes the sibling (fallback) will show up if img is hidden? 
+                                  // No, react structure doesn't work that way easily without state.
+                                  // But for now let's just use placeholder logic.
+                                  // Actually, better to set state or use a fallback src.
                                   (e.target as HTMLImageElement).src = '/placeholder.png'
                                 }}
                               />
@@ -249,6 +297,25 @@ export default function AlertsPage() {
                               <div className="w-full h-full flex items-center justify-center text-gray-400">
                                 <Package className="w-6 h-6" />
                               </div>
+                            )}
+                            
+                            {/* Hover Overlay for fetching image if missing or placeholder */}
+                            {(!item.imageUrl || item.imageUrl.includes('placeholder')) && (
+                                <button
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        handleFetchImage(item);
+                                    }}
+                                    disabled={fetchingImages[item.janCode]}
+                                    className="absolute inset-0 bg-black/60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity text-white cursor-pointer z-10"
+                                    title="自動搜尋圖片"
+                                >
+                                    {fetchingImages[item.janCode] ? (
+                                        <Loader2 className="w-5 h-5 animate-spin" />
+                                    ) : (
+                                        <ImagePlus className="w-5 h-5" />
+                                    )}
+                                </button>
                             )}
                           </div>
                           <div>
@@ -302,13 +369,5 @@ export default function AlertsPage() {
         </div>
       </div>
     </div>
-  )
-}
-
-function CheckCircleIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-    </svg>
   )
 }

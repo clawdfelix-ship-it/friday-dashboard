@@ -8,6 +8,7 @@ import {
   Package,
   TrendingUp,
   ShoppingCart,
+  Filter,
   ArrowRight
 } from 'lucide-react'
 import Link from 'next/link'
@@ -29,6 +30,8 @@ export default function AlertsPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [inventory, setInventory] = useState<InventoryItem[]>([])
   const [searchTerm, setSearchTerm] = useState('')
+  const [selectedBrand, setSelectedBrand] = useState('All')
+  const [stockStatus, setStockStatus] = useState('All') // 'All', 'OutOfStock', 'LowStock'
   const [lastUpdated, setLastUpdated] = useState<string | null>(null)
 
   const loadData = () => {
@@ -68,19 +71,33 @@ export default function AlertsPage() {
     loadData()
   }, [])
 
-  // Filter for low stock items
-  const lowStockItems = inventory.filter(item => {
-    const isLowStock = item.totalStock <= LOW_STOCK_THRESHOLD
+  // Base low stock items (unfiltered by UI controls)
+  const baseLowStockItems = inventory.filter(item => item.totalStock <= LOW_STOCK_THRESHOLD)
+
+  // Get available brands from the low stock items
+  const availableBrands = Array.from(new Set(baseLowStockItems.map(i => i.brandName))).filter(Boolean).sort()
+
+  // Filter for display
+  const filteredItems = baseLowStockItems.filter(item => {
+    // 1. Search
     const matchesSearch = searchTerm === '' || 
       item.productName.toLowerCase().includes(searchTerm.toLowerCase()) ||
       item.janCode.includes(searchTerm) ||
       item.brandName.toLowerCase().includes(searchTerm.toLowerCase())
     
-    return isLowStock && matchesSearch
+    // 2. Brand Filter
+    const matchesBrand = selectedBrand === 'All' || item.brandName === selectedBrand
+
+    // 3. Stock Status Filter
+    let matchesStatus = true
+    if (stockStatus === 'OutOfStock') matchesStatus = item.totalStock === 0
+    if (stockStatus === 'LowStock') matchesStatus = item.totalStock > 0
+
+    return matchesSearch && matchesBrand && matchesStatus
   }).sort((a, b) => a.totalStock - b.totalStock) // Sort by lowest stock first
 
-  const outOfStockCount = lowStockItems.filter(i => i.totalStock === 0).length
-  const lowStockCount = lowStockItems.length - outOfStockCount
+  const outOfStockCount = filteredItems.filter(i => i.totalStock === 0).length
+  const lowStockCount = filteredItems.length - outOfStockCount
 
   return (
     <div className="min-h-screen bg-gray-50 pb-12">
@@ -135,7 +152,7 @@ export default function AlertsPage() {
               </div>
               <div>
                 <p className="text-sm font-medium text-blue-600">建議補貨總數</p>
-                <p className="text-2xl font-bold text-blue-700">{lowStockItems.length}</p>
+                <p className="text-2xl font-bold text-blue-700">{filteredItems.length}</p>
               </div>
             </div>
           </div>
@@ -143,16 +160,50 @@ export default function AlertsPage() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
-        {/* Search Bar */}
-        <div className="mb-6 relative">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
-          <input
-            type="text"
-            placeholder="搜尋警報產品..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-10 pr-4 py-3 bg-white border rounded-xl shadow-sm focus:ring-2 focus:ring-red-500 outline-none"
-          />
+        {/* Filters & Search */}
+        <div className="mb-6 space-y-4">
+          <div className="flex flex-col md:flex-row md:items-center gap-4">
+            {/* Search Bar */}
+            <div className="relative flex-1">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
+              <input
+                type="text"
+                placeholder="搜尋警報產品..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full pl-10 pr-4 py-3 bg-white border rounded-xl shadow-sm focus:ring-2 focus:ring-red-500 outline-none"
+              />
+            </div>
+            
+            {/* Filters */}
+            <div className="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0">
+              <div className="flex items-center gap-2 bg-white border rounded-xl px-3 py-2 shadow-sm min-w-max">
+                <Filter className="w-4 h-4 text-gray-500" />
+                <span className="text-sm font-medium text-gray-700">篩選:</span>
+              </div>
+              
+              <select
+                value={selectedBrand}
+                onChange={(e) => setSelectedBrand(e.target.value)}
+                className="bg-white border rounded-xl px-4 py-3 shadow-sm focus:ring-2 focus:ring-red-500 outline-none text-sm min-w-[140px]"
+              >
+                <option value="All">所有品牌</option>
+                {availableBrands.map(brand => (
+                  <option key={brand} value={brand}>{brand}</option>
+                ))}
+              </select>
+
+              <select
+                value={stockStatus}
+                onChange={(e) => setStockStatus(e.target.value)}
+                className="bg-white border rounded-xl px-4 py-3 shadow-sm focus:ring-2 focus:ring-red-500 outline-none text-sm min-w-[140px]"
+              >
+                <option value="All">所有庫存狀態</option>
+                <option value="OutOfStock">缺貨 (0)</option>
+                <option value="LowStock">低庫存 (1-{LOW_STOCK_THRESHOLD})</option>
+              </select>
+            </div>
+          </div>
         </div>
 
         {/* Product List */}
@@ -169,18 +220,18 @@ export default function AlertsPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
-                {lowStockItems.length === 0 ? (
+                {filteredItems.length === 0 ? (
                   <tr>
                     <td colSpan={5} className="px-6 py-12 text-center text-gray-500">
                       <div className="flex flex-col items-center justify-center gap-3">
                         <CheckCircleIcon className="w-12 h-12 text-green-500" />
-                        <p className="text-lg font-medium text-gray-900">庫存充足</p>
-                        <p>目前沒有低於 {LOW_STOCK_THRESHOLD} 件的產品</p>
+                        <p className="text-lg font-medium text-gray-900">沒有符合的產品</p>
+                        <p>嘗試調整篩選條件</p>
                       </div>
                     </td>
                   </tr>
                 ) : (
-                  lowStockItems.map((item) => (
+                  filteredItems.map((item) => (
                     <tr key={item.productId} className="hover:bg-gray-50 transition-colors">
                       <td className="px-6 py-4">
                         <div className="flex items-center gap-4">

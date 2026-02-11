@@ -145,10 +145,14 @@ export async function POST(request: NextRequest): Promise<Response> {
       }, { status: 400 })
     }
 
-    // --- Inventory Deduction Logic ---
+    // --- Inventory Deduction Logic (with Deduplication) ---
     
-    // 1. Fetch current inventory
-    const inventoryData = await getInventory()
+    // 1. Fetch current inventory and existing sales (to prevent double deduction)
+    const [inventoryData, salesData] = await Promise.all([
+      getInventory(),
+      getSales()
+    ])
+
     let inventory = []
     if (Array.isArray(inventoryData)) {
       inventory = inventoryData
@@ -156,27 +160,49 @@ export async function POST(request: NextRequest): Promise<Response> {
       inventory = inventoryData.inventory
     }
 
-    // 2. Create a map for faster lookup
+    // Map existing sales to check for duplicates/updates
+    const existingSalesMap = new Map()
+    const existingRecords = salesData.records || []
+    existingRecords.forEach((r: any) => {
+      const key = `${r.saleId}-${r.janCode}`
+      existingSalesMap.set(key, r)
+    })
+
+    // 2. Create a map for faster inventory lookup
     const inventoryMap = new Map()
     inventory.forEach((item: any) => {
       // Normalize JAN code (trim spaces)
       if (item.janCode) inventoryMap.set(String(item.janCode).trim(), item)
     })
 
-    // 3. Deduct stock
+    // 3. Deduct stock (smartly)
     let updatedCount = 0
     records.forEach((record: any) => {
       const jan = String(record.janCode).trim()
       const item = inventoryMap.get(jan)
+      const saleKey = `${record.saleId}-${record.janCode}`
+      const existingSale = existingSalesMap.get(saleKey)
+      
+      let qtyToDeduct = record.quantity
+
+      if (existingSale) {
+        // If sale exists, only deduct the difference (if quantity increased)
+        // Or add back if quantity decreased (qtyToDeduct will be negative)
+        qtyToDeduct = record.quantity - existingSale.quantity
+        if (qtyToDeduct === 0) {
+          console.log(`Sale ${saleKey} unchanged. Skipping inventory update.`)
+          return
+        }
+        console.log(`Sale ${saleKey} updated. Adjusting inventory by ${qtyToDeduct} (Old: ${existingSale.quantity}, New: ${record.quantity})`)
+      }
       
       if (item) {
         // Ensure quantity is a number
         const currentQty = parseInt(item.quantity || item.totalStock || 0)
-        const soldQty = record.quantity
         
-        item.quantity = currentQty - soldQty
+        item.quantity = currentQty - qtyToDeduct
         updatedCount++
-        console.log(`Deducted ${soldQty} from ${jan} (${item.productName}). New Qty: ${item.quantity}`)
+        console.log(`Adjusted ${jan} (${item.productName}) by -${qtyToDeduct}. New Qty: ${item.quantity}`)
       } else {
         console.log(`Warning: Product ${jan} not found in inventory. Cannot deduct stock.`)
       }
@@ -194,15 +220,12 @@ export async function POST(request: NextRequest): Promise<Response> {
 
     // --- Merge with Existing Sales Data (Persistence via Redis) ---
     
-    const salesData = await getSales()
-    let existingRecords: any[] = salesData.records || []
-
     // Deduplicate: Create a Map of existing records by unique key (SaleID + JAN)
     // If a record exists, we overwrite it with the new one (assuming update), or keep it if not in new batch
     const salesMap = new Map()
     
     // Load existing
-    existingRecords.forEach(r => {
+    existingRecords.forEach((r: any) => {
       const key = `${r.saleId}-${r.janCode}`
       salesMap.set(key, r)
     })

@@ -13,7 +13,8 @@ import {
   Filter,
   Download,
   Eye,
-  MessageCircle
+  MessageCircle,
+  FileText
 } from 'lucide-react'
 
 interface PurchaseOrder {
@@ -59,6 +60,11 @@ export default function OrdersPage() {
   const [statusFilter, setStatusFilter] = useState('')
   const [showForm, setShowForm] = useState(false)
   const [selectedOrder, setSelectedOrder] = useState<PurchaseOrder | null>(null)
+
+  // Text Order Form State
+  const [showTextForm, setShowTextForm] = useState(false)
+  const [orderText, setOrderText] = useState('')
+  const [isProcessing, setIsProcessing] = useState(false)
 
   // Form state
   const [newOrder, setNewOrder] = useState({
@@ -144,6 +150,33 @@ export default function OrdersPage() {
     saveOrders([order, ...orders])
     setNewOrder({ poNumber: '', supplier: '', expectedDate: '', notes: '', items: [] })
     setShowForm(false)
+  }
+
+  const handleTextSubmit = async () => {
+    if (!orderText.trim()) return
+    setIsProcessing(true)
+    try {
+      const res = await fetch('/api/orders', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: orderText, from: 'Web Quick Order' })
+      })
+      
+      const data = await res.json()
+      
+      if (res.ok) {
+        alert('訂單創建成功！\n' + data.message)
+        setOrderText('')
+        setShowTextForm(false)
+        loadOrders()
+      } else {
+        alert('創建失敗: ' + (data.error || '未知錯誤') + (data.hint ? '\n' + data.hint : ''))
+      }
+    } catch (e) {
+      alert('系統錯誤: ' + String(e))
+    } finally {
+      setIsProcessing(false)
+    }
   }
 
   const updateStatus = (orderId: string, newStatus: PurchaseOrder['status']) => {
@@ -243,13 +276,22 @@ export default function OrdersPage() {
                 <option value="cancelled">已取消</option>
               </select>
             </div>
-            <button 
-              onClick={() => setShowForm(!showForm)}
-              className="flex items-center gap-2 px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
-            >
-              <Plus className="w-4 h-4" />
-              新增訂單
-            </button>
+            <div className="flex gap-2">
+              <button 
+                onClick={() => setShowTextForm(true)}
+                className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+              >
+                <FileText className="w-4 h-4" />
+                快速文字落單
+              </button>
+              <button 
+                onClick={() => setShowForm(!showForm)}
+                className="flex items-center gap-2 px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+              >
+                <Plus className="w-4 h-4" />
+                新增訂單
+              </button>
+            </div>
           </div>
         </div>
 
@@ -311,6 +353,50 @@ export default function OrdersPage() {
               >
                 取消
               </button>
+            </div>
+          </div>
+        )}
+
+        {/* Text Order Form Modal */}
+        {showTextForm && (
+          <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white rounded-xl max-w-lg w-full p-6 shadow-xl">
+              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                <FileText className="w-5 h-5 text-green-600" />
+                快速文字落單
+              </h2>
+              <p className="text-sm text-gray-500 mb-3">請直接貼上訂貨資料 (支援 MASA 格式: CODE要Qty)</p>
+              <textarea
+                value={orderText}
+                onChange={(e) => setOrderText(e.target.value)}
+                className="w-full h-48 p-4 border border-gray-200 rounded-lg font-mono text-sm mb-4 bg-gray-50 focus:bg-white focus:ring-2 focus:ring-green-500 focus:outline-none transition-all"
+                placeholder={`MEGA 補貨 MASA:\n946842522682要72\n4946842529681要72\n4946842541492要18`}
+              />
+              <div className="flex gap-2 justify-end">
+                <button 
+                  onClick={() => setShowTextForm(false)}
+                  className="px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
+                >
+                  取消
+                </button>
+                <button 
+                  onClick={handleTextSubmit}
+                  disabled={isProcessing}
+                  className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 flex items-center gap-2"
+                >
+                  {isProcessing ? (
+                    <>
+                      <Clock className="w-4 h-4 animate-spin" />
+                      處理中...
+                    </>
+                  ) : (
+                    <>
+                      <Check className="w-4 h-4" />
+                      提交訂單
+                    </>
+                  )}
+                </button>
+              </div>
             </div>
           </div>
         )}

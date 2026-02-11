@@ -43,14 +43,63 @@ export default function RestockPage() {
   const loadData = async () => {
     setIsLoading(true)
     try {
-      const invRes = await fetch('/data.json')
-      const invData = await invRes.json()
-      setProducts(invData.inventory || [])
+      // 1. Fetch products from API (Redis) instead of static JSON
+      const prodRes = await fetch('/api/products')
+      const prodData = await prodRes.json()
       
-      const local = localStorage.getItem('restock_history')
-      if (local) {
-        setRestockHistory(JSON.parse(local).records || [])
+      let items = []
+      if (Array.isArray(prodData)) {
+        items = prodData
+      } else if (prodData && prodData.inventory) {
+        items = prodData.inventory
       }
+      
+      // Normalize product data
+      const normalizedProducts = items.map((p: any) => ({
+        janCode: p.janCode,
+        productName: p.productName,
+        currentStock: parseInt(p.quantity || p.totalStock || 0),
+        unitCost: p.unitCost
+      }))
+      
+      setProducts(normalizedProducts)
+      
+      // 2. Fetch Restock History from API (Redis) instead of localStorage
+      const historyRes = await fetch('/api/restock-history')
+      if (historyRes.ok) {
+        const historyData = await historyRes.json()
+        
+        const rawRecords = historyData.records || []
+        const flattenedRecords: RestockRecord[] = []
+        
+        rawRecords.forEach((batch: any) => {
+          if (batch.items && Array.isArray(batch.items)) {
+            batch.items.forEach((item: any) => {
+              // Find product name
+              const product = normalizedProducts.find((p: any) => p.janCode === item.janCode)
+              
+              flattenedRecords.push({
+                id: batch.id + '-' + item.janCode,
+                date: batch.date ? batch.date.split('T')[0] : '',
+                janCode: item.janCode,
+                productName: product?.productName || item.productName || 'Unknown',
+                quantity: item.quantity,
+                supplier: batch.supplier,
+                poNumber: batch.poNumber,
+                notes: batch.itemCount > 1 ? `Batch of ${batch.itemCount} items` : ''
+              })
+            })
+          } else {
+             flattenedRecords.push(batch)
+          }
+        })
+        
+        // Sort by date desc
+        flattenedRecords.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+        
+        setRestockHistory(flattenedRecords)
+      }
+      
     } catch (err) {
       console.error('Error loading data:', err)
     } finally {

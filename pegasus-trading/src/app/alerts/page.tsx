@@ -118,7 +118,8 @@ export default function AlertsPage() {
     if (!url) return '';
     if (url.startsWith('http')) return url;
     if (url.startsWith('/')) return url;
-    return `/images/products/${url}`;
+    // Encode filename to handle special characters (e.g. Chinese, spaces)
+    return `/images/products/${encodeURIComponent(url)}`;
   }
 
   // Base low stock items (unfiltered by UI controls)
@@ -400,7 +401,6 @@ export default function AlertsPage() {
                 </button>
                 
                 {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                  // Logic to show pages around current page
                   let pageNum = i + 1;
                   if (totalPages > 5) {
                     if (currentPage > 3) {
@@ -410,19 +410,10 @@ export default function AlertsPage() {
                       pageNum = totalPages - 4 + i;
                     }
                   }
-                  
-                  // Simple logic for now: show first 5 or logic above is a bit complex for inline.
-                  // Let's stick to a simpler sliding window or just simple previous/next for mobile friendliness
-                  // But user asked for pagination, usually page numbers are nice.
-                  
-                  // Let's implement a simpler "Page X of Y" or just Prev/Next with Page Input?
-                  // Or just render a few page numbers.
-                  
-                  return null; // Using simpler layout below
+                  return null; 
                 })}
                 
                 <div className="flex items-center gap-1">
-                  {/* First Page */}
                   {currentPage > 2 && (
                      <>
                         <button
@@ -435,14 +426,12 @@ export default function AlertsPage() {
                      </>
                   )}
 
-                  {/* Current Page Window */}
                    <button
                     className={`w-8 h-8 flex items-center justify-center rounded-lg text-sm font-medium bg-red-600 text-white shadow-sm`}
                   >
                     {currentPage}
                   </button>
 
-                  {/* Last Page */}
                   {currentPage < totalPages - 1 && (
                      <>
                         {currentPage < totalPages - 2 && <span className="text-gray-400">...</span>}

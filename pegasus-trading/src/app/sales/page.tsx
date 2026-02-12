@@ -1,4 +1,4 @@
-'use client'
+ 'use client'
 
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
@@ -13,6 +13,15 @@ import {
   Search,
   BarChart3
 } from 'lucide-react'
+import { 
+  BarChart, 
+  Bar, 
+  XAxis, 
+  YAxis, 
+  CartesianGrid, 
+  Tooltip, 
+  ResponsiveContainer
+} from 'recharts'
 
 interface SaleRecord {
   saleId: string
@@ -25,11 +34,18 @@ interface SaleRecord {
   channel: string
 }
 
+interface DailySalesData {
+  date: string
+  amount: number
+  label: string
+}
+
 interface SalesSummary {
   totalSales: number
   totalOrders: number
   totalQuantity: number
   avgOrderValue: number
+  dailySales?: DailySalesData[]
 }
 
 export default function SalesPage() {
@@ -152,7 +168,7 @@ export default function SalesPage() {
 
           {/* Summary Cards */}
           {summary && (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
               <div className="bg-blue-50 border border-blue-100 p-4 rounded-xl flex items-center gap-4">
                 <div className="p-3 bg-blue-100 rounded-lg">
                   <DollarSign className="w-6 h-6 text-blue-600" />
@@ -199,6 +215,39 @@ export default function SalesPage() {
                     ${summary.avgOrderValue.toFixed(1)}
                   </p>
                 </div>
+              </div>
+            </div>
+          )}
+
+          {/* Daily Sales Chart */}
+          {summary?.dailySales && (
+            <div className="bg-white rounded-xl shadow-sm border p-6 mb-6">
+              <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <TrendingUp className="w-5 h-5 text-blue-600" />
+                最近7日銷售額
+              </h3>
+              <div className="h-[300px] w-full">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart data={summary.dailySales} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                    <XAxis dataKey="label" axisLine={false} tickLine={false} />
+                    <YAxis 
+                      axisLine={false} 
+                      tickLine={false} 
+                      tickFormatter={(value) => `$${value}`} 
+                    />
+                    <Tooltip 
+                      formatter={(value) => [`$${Number(value).toLocaleString()}`, '銷售額']}
+                      cursor={{ fill: 'transparent' }}
+                    />
+                    <Bar 
+                      dataKey="amount" 
+                      fill="#3b82f6" 
+                      radius={[4, 4, 0, 0]} 
+                      barSize={40}
+                    />
+                  </BarChart>
+                </ResponsiveContainer>
               </div>
             </div>
           )}

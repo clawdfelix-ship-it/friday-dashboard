@@ -2,7 +2,7 @@
   {
     "sku": "FELIX成年貓綜合營養食品吞拿魚味3款各4包50GX12袋_971a8c",
     "name": "FELIX - 成年貓綜合營養食品 吞拿魚味 3款 各4包（50gX12袋）",
-    "price": "27",
+    "price": "62.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/588b/2e6f/8032/zvozidkYPl20221025142542_300.jpg",
     "local_image": "FELIX成年貓綜合營養食品吞拿魚味3款各4包50GX12袋_971a8c.jpg",
     "source": "HKTVmall"
@@ -10,15 +10,23 @@
   {
     "sku": "朝日一本滿足蛋白棒黑巧克力味_cf2df3",
     "name": "朝日 - 一本滿足蛋白棒 黑巧克力味",
-    "price": "26",
+    "price": "15.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/dcad/85a5/caf4/HeqDrbtVQB20251126113550_300.png",
     "local_image": "朝日一本滿足蛋白棒黑巧克力味_cf2df3.png",
     "source": "HKTVmall"
   },
   {
+    "sku": "朝日一本滿足蛋白穀物棒黑巧克力麥片味_d41ddf",
+    "name": "朝日 - 一本滿足蛋白穀物棒 黑巧克力麥片味",
+    "price": "14.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/99a8/5a2e/bb05/anxibyFJLC20250721125252_300.png",
+    "local_image": "朝日一本滿足蛋白穀物棒黑巧克力麥片味_d41ddf.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "朝日一本滿足蛋白穀物棒白巧克力麥片味_93ace9",
     "name": "朝日 - 一本滿足蛋白穀物棒 白巧克力麥片味",
-    "price": "26",
+    "price": "13.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/98e7/5b23/78cb/bOgLCKMMqy20250721125345_300.png",
     "local_image": "朝日一本滿足蛋白穀物棒白巧克力麥片味_93ace9.png",
     "source": "HKTVmall"
@@ -26,7 +34,7 @@
   {
     "sku": "朝日一本滿足蛋白穀物棒巧克力麥片味_787ae1",
     "name": "朝日 - 一本滿足蛋白穀物棒 (巧克力麥片味)",
-    "price": "26",
+    "price": "14.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8f50/921c/2efe/fyhcxpUusF20250721125537_300.png",
     "local_image": "朝日一本滿足蛋白穀物棒巧克力麥片味_787ae1.png",
     "source": "HKTVmall"
@@ -34,7 +42,7 @@
   {
     "sku": "朝日一本滿足蛋白穀物棒草莓味_39046d",
     "name": "朝日 - 一本滿足蛋白穀物棒 草莓味",
-    "price": "26",
+    "price": "13.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/1f40/30f5/c51a/bzxTMxFyBS20250721125438_300.png",
     "local_image": "朝日一本滿足蛋白穀物棒草莓味_39046d.png",
     "source": "HKTVmall"
@@ -42,17 +50,9 @@
   {
     "sku": "朝日一本滿足蛋白棒白巧克力味_0b71ca",
     "name": "朝日 - 一本滿足蛋白棒 白巧克力味",
-    "price": "26",
+    "price": "15.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b4d6/951a/9336/xOpspSLNFU20260123130217_300.png",
     "local_image": "朝日一本滿足蛋白棒白巧克力味_0b71ca.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "朝日一本滿足蛋白穀物棒黑巧克力麥片味_d41ddf",
-    "name": "朝日 - 一本滿足蛋白穀物棒 黑巧克力麥片味",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/99a8/5a2e/bb05/anxibyFJLC20250721125252_300.png",
-    "local_image": "朝日一本滿足蛋白穀物棒黑巧克力麥片味_d41ddf.png",
     "source": "HKTVmall"
   },
   {
@@ -66,7 +66,7 @@
   {
     "sku": "SOYJOY大豆果滋棒抹茶堅果味_8312d5",
     "name": "SOYJOY - 大豆果滋棒-抹茶堅果味",
-    "price": "26",
+    "price": "9.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f047/112e/16e3/tZsDMLwENh20250717161802_300.png",
     "local_image": "SOYJOY大豆果滋棒抹茶堅果味_8312d5.png",
     "source": "HKTVmall"
@@ -77,6 +77,14 @@
     "price": "72.00",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/1575/8921/a947/GmbMwjIGwz20250715204437_300.png",
     "local_image": "相模00210片裝PARALLELIMPORT平行進口安全套避孕套保險套COND_4ef832.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "岡本阿楞加倍水潤藍色12片裝安全套避孕套保險套CONDOM_ce6efb",
+    "name": "岡本 - 阿楞 加倍水潤(藍色)【12片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "26.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3f6a/9f7f/6c3b/hZkePiDrlK20250721115754_300.png",
+    "local_image": "岡本阿楞加倍水潤藍色12片裝安全套避孕套保險套CONDOM_ce6efb.png",
     "source": "HKTVmall"
   },
   {
@@ -106,7 +114,7 @@
   {
     "sku": "SOYJOY大豆果滋棒無花果葡萄乾味_04ffc6",
     "name": "SOYJOY - 大豆果滋棒-無花果葡萄乾味",
-    "price": "26",
+    "price": "9.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/c3f8/0b19/2ce4/bNWoXiHyYD20250717151234_300.png",
     "local_image": "SOYJOY大豆果滋棒無花果葡萄乾味_04ffc6.png",
     "source": "HKTVmall"
@@ -114,7 +122,7 @@
   {
     "sku": "SOYJOY大豆果滋棒香蕉味_4d0bca",
     "name": "SOYJOY - 大豆果滋棒-香蕉味",
-    "price": "26",
+    "price": "9.50",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/9769/db08/7a5c/cNtQuyaefN20250717150751_300.png",
     "local_image": "SOYJOY大豆果滋棒香蕉味_4d0bca.png",
     "source": "HKTVmall"
@@ -122,7 +130,7 @@
   {
     "sku": "SOYJOY大豆果滋棒杏仁巧克力味_0924c7",
     "name": "SOYJOY - 大豆果滋棒-杏仁巧克力味",
-    "price": "26",
+    "price": "9.50",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0801/b8b0/86a6/bxnYPavTVB20250717162103_300.png",
     "local_image": "SOYJOY大豆果滋棒杏仁巧克力味_0924c7.png",
     "source": "HKTVmall"
@@ -130,7 +138,7 @@
   {
     "sku": "日本森永製菓蛋白棒烘焙苦巧克力味_4c7bf3",
     "name": "日本森永製菓 - 蛋白棒<烘焙苦巧克力>味",
-    "price": "26",
+    "price": "14.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/1d36/fd2a/ceac/XWQbLCqoKl20240819094122_300.png",
     "local_image": "日本森永製菓蛋白棒烘焙苦巧克力味_4c7bf3.png",
     "source": "HKTVmall"
@@ -138,15 +146,23 @@
   {
     "sku": "SOYJOY大豆果滋棒草莓味_7bba0d",
     "name": "SOYJOY - 大豆果滋棒-草莓味",
-    "price": "26",
+    "price": "9.50",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/7fdd/1e92/0915/CWNnXSUsUF20250717162006_300.png",
     "local_image": "SOYJOY大豆果滋棒草莓味_7bba0d.png",
     "source": "HKTVmall"
   },
   {
+    "sku": "SOYJOY大豆果滋棒藍莓味_584749",
+    "name": "SOYJOY - 大豆果滋棒-藍莓味",
+    "price": "9.50",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/31b2/ac33/a455/ekmmcbeWzO20250717151738_300.png",
+    "local_image": "SOYJOY大豆果滋棒藍莓味_584749.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "SOYJOY大豆果滋棒3種葡萄乾味_c420cf",
     "name": "SOYJOY - 大豆果滋棒-3種葡萄乾味",
-    "price": "26",
+    "price": "9.50",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/388d/1e46/f63a/QjwGjpGqeT20250717151141_300.png",
     "local_image": "SOYJOY大豆果滋棒3種葡萄乾味_c420cf.png",
     "source": "HKTVmall"
@@ -154,7 +170,7 @@
   {
     "sku": "SOYJOY大豆果滋棒水果烤起司味_ffb0a8",
     "name": "SOYJOY - 大豆果滋棒-水果烤起司味",
-    "price": "26",
+    "price": "9.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/1fb5/4eab/0546/NmLdVaPRpF20250717151344_300.png",
     "local_image": "SOYJOY大豆果滋棒水果烤起司味_ffb0a8.png",
     "source": "HKTVmall"
@@ -162,7 +178,7 @@
   {
     "sku": "SOYJOY大豆果滋棒2種蘋果味_28527d",
     "name": "SOYJOY - 大豆果滋棒-2種蘋果味",
-    "price": "26",
+    "price": "9.50",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/cf5a/7c5c/526b/EzxvdJNnUD20250717151009_300.png",
     "local_image": "SOYJOY大豆果滋棒2種蘋果味_28527d.png",
     "source": "HKTVmall"
@@ -170,7 +186,7 @@
   {
     "sku": "SOYJOY大豆果滋棒白巧克力檸檬味_4febff",
     "name": "SOYJOY - 大豆果滋棒-白巧克力檸檬味",
-    "price": "26",
+    "price": "9.50",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/5602/2d4b/33c6/DgdrWXUNsS20250717150859_300.png",
     "local_image": "SOYJOY大豆果滋棒白巧克力檸檬味_4febff.png",
     "source": "HKTVmall"
@@ -178,7 +194,7 @@
   {
     "sku": "SARAYA羅漢果糖3GX60小包_499462",
     "name": "SARAYA - 羅漢果糖 (3g x 60小包)",
-    "price": "26",
+    "price": "66.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/596d/6ed3/542e/PagVrJloQj20220608164448_300.png",
     "local_image": "SARAYA羅漢果糖3GX60小包_499462.png",
     "source": "HKTVmall"
@@ -194,7 +210,7 @@
   {
     "sku": "日本森永製菓蛋白威化餅香草味_f80247",
     "name": "日本森永製菓 - 蛋白威化餅<香草>味",
-    "price": "26",
+    "price": "14.90",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/abbd/3578/eccf/TUxFBXLDGW20231117152716_300.png",
     "local_image": "日本森永製菓蛋白威化餅香草味_f80247.png",
     "source": "HKTVmall"
@@ -210,7 +226,7 @@
   {
     "sku": "日本森永製菓蛋白棒烘焙巧克力味_46f4e9",
     "name": "日本森永製菓 - 蛋白棒<烘焙巧克力>味",
-    "price": "26",
+    "price": "14.90",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/fca1/936d/fc81/DGrZPfcwrH20240104154117_300.png",
     "local_image": "日本森永製菓蛋白棒烘焙巧克力味_46f4e9.png",
     "source": "HKTVmall"
@@ -218,7 +234,7 @@
   {
     "sku": "明治SAVAS蛋白棒巧克力口味44G_cba22a",
     "name": "明治 - Savas 蛋白棒巧克力口味(44g)",
-    "price": "26",
+    "price": "17.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/30c0/9494/f839/sDnalNLyEo20240820161420_300.png",
     "local_image": "明治SAVAS蛋白棒巧克力口味44G_cba22a.png",
     "source": "HKTVmall"
@@ -226,7 +242,7 @@
   {
     "sku": "SOYJOY大豆果滋棒黑芝麻口味_18dbe3",
     "name": "SOYJOY - 大豆果滋棒-黑芝麻口味",
-    "price": "26",
+    "price": "9.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/92e4/dcf2/6464/AaWFoIAHef20250916144347_300.png",
     "local_image": "SOYJOY大豆果滋棒黑芝麻口味_18dbe3.png",
     "source": "HKTVmall"
@@ -240,49 +256,89 @@
     "source": "HKTVmall"
   },
   {
+    "sku": "朝日MINTIABREEZE無糖桃子味糖30粒_46bc37",
+    "name": "朝日 - Mintia Breeze(無糖)桃子味糖30粒",
+    "price": "15.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/2097/fdd2/c9c9/WPdIQRdCIn20250721125029_300.png",
+    "local_image": "朝日MINTIABREEZE無糖桃子味糖30粒_46bc37.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "明治SAVAS乳清蛋白100濃鬱巧克力口味試用裝105GX6包_46bf0c",
     "name": "明治 - SAVAS乳清蛋白100濃鬱巧克力口味試用裝(10.5g x 6包)",
-    "price": "27",
+    "price": "79.90",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/6561/c49f/faf8/bhergKOAch20240220145920_300.png",
     "local_image": "明治SAVAS乳清蛋白100濃鬱巧克力口味試用裝105GX6包_46bf0c.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "爆款加推日本制防霧清潔劑10ML_207e40",
-    "name": "爆款加推 - 日本制防霧清潔劑 10ml",
-    "price": "39.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/3836/91dd/286f/nCGYRrnrdG20220310134840_300.png",
-    "local_image": "爆款加推日本制防霧清潔劑10ML_207e40.png",
+    "sku": "SARAYASARAYALAKANTO零熱量糖果草莓牛奶60克_cc92f0",
+    "name": "SARAYA - Saraya Lakanto 零熱量糖果草莓牛奶 60 克",
+    "price": "22.50",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3daa/b730/b8ef/ynAUwVEWzm20240805163815_300.png",
+    "local_image": "SARAYASARAYALAKANTO零熱量糖果草莓牛奶60克_cc92f0.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "愛喜雅魚魚生活金槍魚味180G60GX3袋配金槍魚刨花片_3cd665",
-    "name": "愛喜雅 - 魚魚生活 - 金槍魚味 180g (60g x 3袋)【配金槍魚刨花片】",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/981c/6c89/c31e/zOcXSCYofi20230227151306_300.png",
-    "local_image": "愛喜雅魚魚生活金槍魚味180G60GX3袋配金槍魚刨花片_3cd665.png",
+    "sku": "松本清蛋白棒咖啡牛奶味_1cc808",
+    "name": "松本清 - 蛋白棒 咖啡牛奶味",
+    "price": "15.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/42e1/0e0d/38d8/OcjFBcnMGf20260210122822_300.png",
+    "local_image": "松本清蛋白棒咖啡牛奶味_1cc808.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "不二乳膠SKYNFEELIR非乳膠10片裝安全套避孕套保險套CONDOM_5b1759",
-    "name": "不二乳膠 - SKYNFEEL™ iR非乳膠【10片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "69.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/b506/656f/ed34/KBnSdeJJDt20211229141836_300.png",
-    "local_image": "不二乳膠SKYNFEELIR非乳膠10片裝安全套避孕套保險套CONDOM_5b1759.png",
+    "sku": "朝日一本滿足蛋白棒烤起司味_e6b9ff",
+    "name": "朝日 - 一本滿足蛋白棒 烤起司味",
+    "price": "16.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3d3f/b22c/76a7/LxxdIHYftS20260210115327_300.png",
+    "local_image": "朝日一本滿足蛋白棒烤起司味_e6b9ff.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "FELIX15歲以上成年貓綜合營養食品肉肉2款各6包50GX12袋_7b1a10",
-    "name": "FELIX - 15歲以上成年貓綜合營養食品 肉肉 2款 各6包（50gX12袋）",
-    "price": "26",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/ccee/f0eb/cf63/pEfhnYgEBi20230408170522_300.png",
-    "local_image": "FELIX15歲以上成年貓綜合營養食品肉肉2款各6包50GX12袋_7b1a10.png",
+    "sku": "朝日一本滿足蛋白棒烘焙巧克力味_f4e33d",
+    "name": "朝日 - 一本滿足蛋白棒 烘焙巧克力味",
+    "price": "16.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/65d2/ab2c/7a02/IRHIpYjejw20260210114504_300.png",
+    "local_image": "朝日一本滿足蛋白棒烘焙巧克力味_f4e33d.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "朝日一本滿足蛋白棒巧克力味_00e4a7",
+    "name": "朝日 - 一本滿足蛋白棒 巧克力味",
+    "price": "25.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/6697/7f18/24fa/TIoIjqVsUw20260209190144_300.png",
+    "local_image": "朝日一本滿足蛋白棒巧克力味_00e4a7.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "朝日一本滿足蛋白棒強焦糖味_321a3f",
+    "name": "朝日 - 一本滿足蛋白棒 強焦糖味",
+    "price": "25.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/5a37/efb3/83f1/UehhIEgxRv20260209185606_300.png",
+    "local_image": "朝日一本滿足蛋白棒強焦糖味_321a3f.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "百邦BCAA蛋白棒焦糖曲奇_3a63ba",
+    "name": "百邦 - BCAA蛋白棒+焦糖曲奇",
+    "price": "16.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/19b7/1fc9/4f71/WLKdtoyonm20260209180626_300.png",
+    "local_image": "百邦BCAA蛋白棒焦糖曲奇_3a63ba.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "百邦BCAA蛋白棒巧克力曲奇_bb4ce3",
+    "name": "百邦 - BCAA蛋白棒+巧克力曲奇",
+    "price": "16.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8588/adf9/d765/WSdkLzHynw20260209175133_300.png",
+    "local_image": "百邦BCAA蛋白棒巧克力曲奇_bb4ce3.png",
     "source": "HKTVmall"
   },
   {
     "sku": "樂天蛋白巧克力棒_bdb7b8",
     "name": "樂天 - 蛋白巧克力棒",
-    "price": "26",
+    "price": "17.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/6cc7/47c5/98d0/lqznGlaNbu20260126152501_300.png",
     "local_image": "樂天蛋白巧克力棒_bdb7b8.png",
     "source": "HKTVmall"
@@ -290,81 +346,9 @@
   {
     "sku": "樂天格蘭諾拉巧克力棒_30eb6c",
     "name": "樂天 - 格蘭諾拉巧克力棒",
-    "price": "26",
+    "price": "17.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/d827/678c/29ef/xarbKvsJrR20260126150138_300.png",
     "local_image": "樂天格蘭諾拉巧克力棒_30eb6c.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "岡本001水潤極薄40MM大碼3片裝PU安全套避孕套保險套CONDOM_be4b97",
-    "name": "岡本 - 0.01 水潤極薄40mm大碼【3片裝】 PU安全套_避孕套_保險套_CONDOM",
-    "price": "59.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/cc6c/f3aa/97f9/nkdnwYRMUX20250721123911_300.png",
-    "local_image": "岡本001水潤極薄40MM大碼3片裝PU安全套避孕套保險套CONDOM_be4b97.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGASD經典真空杯白色柔軟型_ff5bce",
-    "name": "TENGA - TENGA SD 經典真空杯 白色柔軟型",
-    "price": "99.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a73b/5cb5/2ebc/xtzUwiGCgf20241205151406_300.png",
-    "local_image": "TENGATENGASD經典真空杯白色柔軟型_ff5bce.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGAAIRTECH真空吸力杯激情_6a0c97",
-    "name": "TENGA - TENGA AIR TECH 真空吸力杯 (激情)",
-    "price": "129.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/10f2/81a4/be2c/KalnAURnWm20250327144102_300.png",
-    "local_image": "TENGATENGAAIRTECH真空吸力杯激情_6a0c97.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGASD經典真空杯紅色標準型_8103ee",
-    "name": "TENGA - TENGA SD 經典真空杯 紅色標準型",
-    "price": "99.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/76db/83c3/ee4e/lSZiPKKkNC20241205151631_300.png",
-    "local_image": "TENGATENGASD經典真空杯紅色標準型_8103ee.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGA魔法彈珠飛機杯_139271",
-    "name": "TENGA - TENGA 魔法彈珠 飛機杯",
-    "price": "199.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ad7b/ac7d/7d6b/hTIhupHdyo20250327144512_300.png",
-    "local_image": "TENGATENGA魔法彈珠飛機杯_139271.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "岡本002EX潤滑液60G_426e6e",
-    "name": "岡本 - 0.02EX 潤滑液(60g)",
-    "price": "69.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/e99a/0f26/8ac5/DTazJCpdcz20250721114143_300.png",
-    "local_image": "岡本002EX潤滑液60G_426e6e.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGASD經典真空杯黑色刺激型_26d174",
-    "name": "TENGA - TENGA SD 經典真空杯－黑色刺激型",
-    "price": "99.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3298/726b/b822/HynZanvElP20241205151448_300.png",
-    "local_image": "TENGATENGASD經典真空杯黑色刺激型_26d174.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGASPINNER05BEADS自慰器_f28c77",
-    "name": "TENGA - TENGA Spinner 05 Beads 自慰器",
-    "price": "150.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/da07/4636/1bc8/ubAuYVLeRP20241205151320_300.png",
-    "local_image": "TENGATENGASPINNER05BEADS自慰器_f28c77.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGA泡泡瘋狂方塊飛機杯_4e92e5",
-    "name": "TENGA - TENGA 泡泡瘋狂方塊 飛機杯",
-    "price": "199.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8d83/de20/2e95/iRveIeoNsw20250327144657_300.png",
-    "local_image": "TENGATENGA泡泡瘋狂方塊飛機杯_4e92e5.png",
     "source": "HKTVmall"
   },
   {
@@ -376,6 +360,78 @@
     "source": "HKTVmall"
   },
   {
+    "sku": "岡本001水潤極薄40MM大碼3片裝PU安全套避孕套保險套CONDOM_be4b97",
+    "name": "岡本 - 0.01 水潤極薄40mm大碼【3片裝】 PU安全套_避孕套_保險套_CONDOM",
+    "price": "59.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/cc6c/f3aa/97f9/nkdnwYRMUX20250721123911_300.png",
+    "local_image": "岡本001水潤極薄40MM大碼3片裝PU安全套避孕套保險套CONDOM_be4b97.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "TENGATENGASPINNER05BEADS自慰器_f28c77",
+    "name": "TENGA - TENGA Spinner 05 Beads 自慰器",
+    "price": "150.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/da07/4636/1bc8/ubAuYVLeRP20241205151320_300.png",
+    "local_image": "TENGATENGASPINNER05BEADS自慰器_f28c77.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "TENGATENGASD經典真空杯黑色刺激型_26d174",
+    "name": "TENGA - TENGA SD 經典真空杯－黑色刺激型",
+    "price": "99.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3298/726b/b822/HynZanvElP20241205151448_300.png",
+    "local_image": "TENGATENGASD經典真空杯黑色刺激型_26d174.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "TENGATENGA魔法彈珠飛機杯_139271",
+    "name": "TENGA - TENGA 魔法彈珠 飛機杯",
+    "price": "199.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ad7b/ac7d/7d6b/hTIhupHdyo20250327144512_300.png",
+    "local_image": "TENGATENGA魔法彈珠飛機杯_139271.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "TENGATENGAAIRTECH真空吸力杯激情_6a0c97",
+    "name": "TENGA - TENGA AIR TECH 真空吸力杯 (激情)",
+    "price": "129.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/10f2/81a4/be2c/KalnAURnWm20250327144102_300.png",
+    "local_image": "TENGATENGAAIRTECH真空吸力杯激情_6a0c97.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "TENGATENGA泡泡瘋狂方塊飛機杯_4e92e5",
+    "name": "TENGA - TENGA 泡泡瘋狂方塊 飛機杯",
+    "price": "199.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8d83/de20/2e95/iRveIeoNsw20250327144657_300.png",
+    "local_image": "TENGATENGA泡泡瘋狂方塊飛機杯_4e92e5.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "TENGATENGASD經典真空杯紅色標準型_8103ee",
+    "name": "TENGA - TENGA SD 經典真空杯 紅色標準型",
+    "price": "99.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/76db/83c3/ee4e/lSZiPKKkNC20241205151631_300.png",
+    "local_image": "TENGATENGASD經典真空杯紅色標準型_8103ee.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "岡本002EX潤滑液60G_426e6e",
+    "name": "岡本 - 0.02EX 潤滑液(60g)",
+    "price": "69.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/e99a/0f26/8ac5/DTazJCpdcz20250721114143_300.png",
+    "local_image": "岡本002EX潤滑液60G_426e6e.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "TENGATENGASD經典真空杯白色柔軟型_ff5bce",
+    "name": "TENGA - TENGA SD 經典真空杯 白色柔軟型",
+    "price": "99.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a73b/5cb5/2ebc/xtzUwiGCgf20241205151406_300.png",
+    "local_image": "TENGATENGASD經典真空杯白色柔軟型_ff5bce.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "SAMOURAI女士便携沐浴洗髮護理套裝SAMOURAI獨有香味1套_e5e025",
     "name": "Samourai - 女士便携沐浴洗髮護理套裝【SAMOURAI獨有香味】1套",
     "price": "49.00",
@@ -384,83 +440,11 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本阿楞加倍水潤藍色12片裝安全套避孕套保險套CONDOM_ce6efb",
-    "name": "岡本 - 阿楞 加倍水潤(藍色)【12片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "26.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3f6a/9f7f/6c3b/hZkePiDrlK20250721115754_300.png",
-    "local_image": "岡本阿楞加倍水潤藍色12片裝安全套避孕套保險套CONDOM_ce6efb.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "DHC貓貓用12種維生素50G_05ddc1",
-    "name": "DHC - 貓貓用12種維生素【50g】",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/3835/852b/a9f8/hhqldDFlxp20230428175104_300.png",
-    "local_image": "DHC貓貓用12種維生素50G_05ddc1.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "CIAOCIAO神奇乳酸菌CRANKY金槍魚鰹魚片混合22GX25小袋_2a649e",
-    "name": "CIAO - CIAO 神奇乳酸菌 Cranky 金槍魚/鰹魚片混合 22g x 25 小袋",
-    "price": "27",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ec64/5b79/6220/gRIfjoPHrs20250610153457_300.png",
-    "local_image": "CIAOCIAO神奇乳酸菌CRANKY金槍魚鰹魚片混合22GX25小袋_2a649e.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "CIAOCIAO神奇乳酸菌鬆脆海鮮品種22GX25小袋_c12cb0",
-    "name": "CIAO - CIAO 神奇乳酸菌鬆脆海鮮品種 22g x 25小袋",
-    "price": "27",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/4bb2/2e67/550b/OFntNqGSku20250125151924_300.png",
-    "local_image": "CIAOCIAO神奇乳酸菌鬆脆海鮮品種22GX25小袋_c12cb0.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "FELIX成年貓綜合營養食品魚肉3款各4包50GX12袋_b1b2ea",
-    "name": "FELIX - 成年貓綜合營養食品 魚肉 3款 各4包（50gX12袋）",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/c488/9919/159e/jiDnAbSBcd20230408170908_300.png",
-    "local_image": "FELIX成年貓綜合營養食品魚肉3款各4包50GX12袋_b1b2ea.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "愛喜雅肉肉生活金槍魚味180G60GX3袋_0e1b35",
-    "name": "愛喜雅 - 肉肉生活 - 金槍魚味 180g (60g x 3袋)",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/adaa/352a/8901/KhLNoNxlGN20230227151909_300.png",
-    "local_image": "愛喜雅肉肉生活金槍魚味180G60GX3袋_0e1b35.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "愛喜雅肉肉生活牛肉味180G60GX3袋_814147",
-    "name": "愛喜雅 - 肉肉生活 - 牛肉味 180g (60g x 3袋)",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/d5d3/eefd/28ab/AKBwqtkKTF20230227151641_300.png",
-    "local_image": "愛喜雅肉肉生活牛肉味180G60GX3袋_814147.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "愛喜雅肉肉生活烤雞味180G60GX3袋_8a7604",
-    "name": "愛喜雅 - 肉肉生活 - 烤雞味 180g (60g x 3袋)",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/9f83/e7eb/a773/RZRiIjUcjx20230227152006_300.png",
-    "local_image": "愛喜雅肉肉生活烤雞味180G60GX3袋_8a7604.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "愛喜雅肉肉生活雞肉味180G60GX3袋_ed706e",
-    "name": "愛喜雅 - 肉肉生活 - 雞肉味 180g (60g x 3袋)",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/f708/4c02/5cef/LTnmStgXMl20230227151736_300.png",
-    "local_image": "愛喜雅肉肉生活雞肉味180G60GX3袋_ed706e.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "愛喜雅肉肉生活三文魚味180G60GX3袋_9c7fa4",
-    "name": "愛喜雅 - 肉肉生活 - 三文魚味 180g (60g x 3袋)",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/70b6/1a37/dff7/jHDSQZjOzh20230227152043_300.png",
-    "local_image": "愛喜雅肉肉生活三文魚味180G60GX3袋_9c7fa4.png",
+    "sku": "愛喜雅魚魚生活金槍魚味180G60GX3袋配銀魚_d6ad13",
+    "name": "愛喜雅 - 魚魚生活 - 金槍魚味 180g (60g x 3袋)【配銀魚】",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/6438/3402/81af/ZzdPEsSfwj20230227151122_300.png",
+    "local_image": "愛喜雅魚魚生活金槍魚味180G60GX3袋配銀魚_d6ad13.png",
     "source": "HKTVmall"
   },
   {
@@ -472,35 +456,11 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "COMBO日本寵物食品COMBOPRESENT貓零食防毛球42G_0c813c",
-    "name": "COMBO - [日本寵物食品]Combo Present  貓零食，防毛球，42g",
-    "price": "27",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0abb/ce1a/c52b/JPsihxvouU20250520170246_300.png",
-    "local_image": "COMBO日本寵物食品COMBOPRESENT貓零食防毛球42G_0c813c.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "WANWAN猫日和雞肉芝士貓咪鮮食包40G_8e491f",
-    "name": "Wanwan - 猫日和 雞肉芝士 貓咪鮮食包 40g",
-    "price": "26",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/3b0f/0cb7/a195/vRKpewnocV20230411184716_300.png",
-    "local_image": "WANWAN猫日和雞肉芝士貓咪鮮食包40G_8e491f.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "CIAOCIAO神奇乳酸菌3種鰹魚品種22GX25小袋_7a6287",
-    "name": "CIAO - CIAO 神奇乳酸菌 3種鰹魚品種 22g x 25小袋",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b38b/dcf1/d526/BFGjyFATiy20250619104438_300.jpg",
-    "local_image": "CIAOCIAO神奇乳酸菌3種鰹魚品種22GX25小袋_7a6287.jpg",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "愛喜雅魚魚生活鮪魚鮭魚180G60GX3袋_280342",
-    "name": "愛喜雅 - 魚魚生活 - 鮪魚鮭魚 180g (60g x 3 袋)",
-    "price": "26",
-    "image_url": "https://cdn-mms.hktvmall.com/HKTV/mms/uploadProductImage/ce4a/388f/9e98/prIBqNIMup20240420132153_300.png",
-    "local_image": "愛喜雅魚魚生活鮪魚鮭魚180G60GX3袋_280342.png",
+    "sku": "DHC貓貓用12種維生素50G_05ddc1",
+    "name": "DHC - 貓貓用12種維生素【50g】",
+    "price": "88.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/3835/852b/a9f8/hhqldDFlxp20230428175104_300.png",
+    "local_image": "DHC貓貓用12種維生素50G_05ddc1.png",
     "source": "HKTVmall"
   },
   {
@@ -512,6 +472,22 @@
     "source": "HKTVmall"
   },
   {
+    "sku": "CIAOCIAO神奇乳酸菌CRANKY金槍魚鰹魚片混合22GX25小袋_2a649e",
+    "name": "CIAO - CIAO 神奇乳酸菌 Cranky 金槍魚/鰹魚片混合 22g x 25 小袋",
+    "price": "88.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ec64/5b79/6220/gRIfjoPHrs20250610153457_300.png",
+    "local_image": "CIAOCIAO神奇乳酸菌CRANKY金槍魚鰹魚片混合22GX25小袋_2a649e.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "FELIX成年貓綜合營養食品魚肉3款各4包50GX12袋_b1b2ea",
+    "name": "FELIX - 成年貓綜合營養食品 魚肉 3款 各4包（50gX12袋）",
+    "price": "62.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/c488/9919/159e/jiDnAbSBcd20230408170908_300.png",
+    "local_image": "FELIX成年貓綜合營養食品魚肉3款各4包50GX12袋_b1b2ea.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "COMET日本制蝦天婦羅玩具2件裝_a012c3",
     "name": "COMET - 日本制蝦天婦羅玩具【2件裝 】",
     "price": "49.00",
@@ -520,17 +496,129 @@
     "source": "HKTVmall"
   },
   {
+    "sku": "COMBO日本寵物食品COMBOPRESENT貓零食防毛球42G_0c813c",
+    "name": "COMBO - [日本寵物食品]Combo Present  貓零食，防毛球，42g",
+    "price": "18.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0abb/ce1a/c52b/JPsihxvouU20250520170246_300.png",
+    "local_image": "COMBO日本寵物食品COMBOPRESENT貓零食防毛球42G_0c813c.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "FELIX15歲以上成年貓綜合營養食品肉肉2款各6包50GX12袋_7b1a10",
+    "name": "FELIX - 15歲以上成年貓綜合營養食品 肉肉 2款 各6包（50gX12袋）",
+    "price": "62.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/ccee/f0eb/cf63/pEfhnYgEBi20230408170522_300.png",
+    "local_image": "FELIX15歲以上成年貓綜合營養食品肉肉2款各6包50GX12袋_7b1a10.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "CIAOCIAO神奇乳酸菌鬆脆海鮮品種22GX25小袋_c12cb0",
+    "name": "CIAO - CIAO 神奇乳酸菌鬆脆海鮮品種 22g x 25小袋",
+    "price": "88.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/4bb2/2e67/550b/OFntNqGSku20250125151924_300.png",
+    "local_image": "CIAOCIAO神奇乳酸菌鬆脆海鮮品種22GX25小袋_c12cb0.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "愛喜雅魚魚生活鮪魚鮭魚180G60GX3袋_280342",
+    "name": "愛喜雅 - 魚魚生活 - 鮪魚鮭魚 180g (60g x 3 袋)",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/HKTV/mms/uploadProductImage/ce4a/388f/9e98/prIBqNIMup20240420132153_300.png",
+    "local_image": "愛喜雅魚魚生活鮪魚鮭魚180G60GX3袋_280342.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "愛喜雅肉肉生活牛肉味180G60GX3袋_814147",
+    "name": "愛喜雅 - 肉肉生活 - 牛肉味 180g (60g x 3袋)",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/d5d3/eefd/28ab/AKBwqtkKTF20230227151641_300.png",
+    "local_image": "愛喜雅肉肉生活牛肉味180G60GX3袋_814147.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "愛喜雅肉肉生活雞肉味180G60GX3袋_ed706e",
+    "name": "愛喜雅 - 肉肉生活 - 雞肉味 180g (60g x 3袋)",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/f708/4c02/5cef/LTnmStgXMl20230227151736_300.png",
+    "local_image": "愛喜雅肉肉生活雞肉味180G60GX3袋_ed706e.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "WANWAN猫日和雞肉芝士貓咪鮮食包40G_8e491f",
+    "name": "Wanwan - 猫日和 雞肉芝士 貓咪鮮食包 40g",
+    "price": "9.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/3b0f/0cb7/a195/vRKpewnocV20230411184716_300.png",
+    "local_image": "WANWAN猫日和雞肉芝士貓咪鮮食包40G_8e491f.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "愛喜雅肉肉生活三文魚味180G60GX3袋_9c7fa4",
+    "name": "愛喜雅 - 肉肉生活 - 三文魚味 180g (60g x 3袋)",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/70b6/1a37/dff7/jHDSQZjOzh20230227152043_300.png",
+    "local_image": "愛喜雅肉肉生活三文魚味180G60GX3袋_9c7fa4.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "愛喜雅肉肉生活烤雞味180G60GX3袋_8a7604",
+    "name": "愛喜雅 - 肉肉生活 - 烤雞味 180g (60g x 3袋)",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/9f83/e7eb/a773/RZRiIjUcjx20230227152006_300.png",
+    "local_image": "愛喜雅肉肉生活烤雞味180G60GX3袋_8a7604.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "FELIX成年貓綜合營養食品雞牛組合2款各6包50GX12袋_918daa",
+    "name": "FELIX - 成年貓綜合營養食品 雞牛組合 2款 各6包（50gX12袋）",
+    "price": "79.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/b0e7/1e53/403a/KWQpXMUeTA20230408170648_300.png",
+    "local_image": "FELIX成年貓綜合營養食品雞牛組合2款各6包50GX12袋_918daa.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "CIAOCIAO神奇乳酸菌3種鰹魚品種22GX25小袋_7a6287",
+    "name": "CIAO - CIAO 神奇乳酸菌 3種鰹魚品種 22g x 25小袋",
+    "price": "88.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b38b/dcf1/d526/BFGjyFATiy20250619104438_300.jpg",
+    "local_image": "CIAOCIAO神奇乳酸菌3種鰹魚品種22GX25小袋_7a6287.jpg",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "FELIX成年貓綜合營養食品大魚大肉3款各4包50GX12袋_0db4d0",
+    "name": "FELIX - 成年貓綜合營養食品 大魚大肉 3款 各4包（50gX12袋）",
+    "price": "62.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/f735/ae8e/d33c/jsXBicLjFi20230408170954_300.png",
+    "local_image": "FELIX成年貓綜合營養食品大魚大肉3款各4包50GX12袋_0db4d0.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "愛喜雅肉肉生活金槍魚味180G60GX3袋_0e1b35",
+    "name": "愛喜雅 - 肉肉生活 - 金槍魚味 180g (60g x 3袋)",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/adaa/352a/8901/KhLNoNxlGN20230227151909_300.png",
+    "local_image": "愛喜雅肉肉生活金槍魚味180G60GX3袋_0e1b35.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "FELIX成年貓綜合營養食品雞肉味3款各4包50GX12袋_22c444",
     "name": "FELIX - 成年貓綜合營養食品 雞肉味 3款 各4包（50gX12袋）",
-    "price": "27",
+    "price": "62.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/1b55/06e7/cc54/wpdGraOiqE20221025142427_300.jpg",
     "local_image": "FELIX成年貓綜合營養食品雞肉味3款各4包50GX12袋_22c444.jpg",
     "source": "HKTVmall"
   },
   {
+    "sku": "愛喜雅魚魚生活金槍魚味180G60GX3袋配金槍魚刨花片_3cd665",
+    "name": "愛喜雅 - 魚魚生活 - 金槍魚味 180g (60g x 3袋)【配金槍魚刨花片】",
+    "price": "22.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/981c/6c89/c31e/zOcXSCYofi20230227151306_300.png",
+    "local_image": "愛喜雅魚魚生活金槍魚味180G60GX3袋配金槍魚刨花片_3cd665.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "朝日一本滿足蛋白棒巧克力味_9a67b2",
     "name": "朝日 - 一本滿足蛋白棒巧克力味",
-    "price": "26",
+    "price": "15.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/34ef/2f28/7507/GTqOBoFkZQ20251126171639_300.png",
     "local_image": "朝日一本滿足蛋白棒巧克力味_9a67b2.png",
     "source": "HKTVmall"
@@ -538,105 +626,105 @@
   {
     "sku": "朝日一本滿足蛋白棒草莓味_9df942",
     "name": "朝日 - 一本滿足蛋白棒 草莓味",
-    "price": "26",
+    "price": "14.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/71c8/397f/d6d2/hJqBCyBTdq20251227155021_300.png",
     "local_image": "朝日一本滿足蛋白棒草莓味_9df942.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "SARAYASARAYALAKANTO零熱量糖果抹茶牛奶口味60G_b3fe61",
-    "name": "SARAYA - Saraya Lakanto 零熱量糖果 抹茶牛奶口味 60g",
-    "price": "27",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8775/fd84/4561/FpSfZPsQXK20240805162230_300.png",
-    "local_image": "SARAYASARAYALAKANTO零熱量糖果抹茶牛奶口味60G_b3fe61.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "日本森永製菓蛋白棒脆脆的苦味_2c9847",
-    "name": "日本森永製菓 - 蛋白棒<脆脆的苦味>",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ac15/b26b/550d/yWiLHEAZhI20251213155145_300.png",
-    "local_image": "日本森永製菓蛋白棒脆脆的苦味_2c9847.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "SOYJOY大豆果滋棒地瓜味_5621ab",
-    "name": "SOYJOY - 大豆果滋棒-地瓜味",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/dc1b/7cae/ab11/sARikRRCBG20250717161901_300.png",
-    "local_image": "SOYJOY大豆果滋棒地瓜味_5621ab.png",
-    "source": "HKTVmall"
-  },
-  {
     "sku": "爆款加推ZEROBAR無糖蛋白棒可可味_d54cb4",
     "name": "爆款加推 - ZEROBAR 無糖蛋白棒 可可味",
-    "price": "26",
+    "price": "15.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/592e/7f13/7b6d/uiywJsXqfi20250408185730_300.png",
     "local_image": "爆款加推ZEROBAR無糖蛋白棒可可味_d54cb4.png",
     "source": "HKTVmall"
   },
   {
+    "sku": "日本森永製菓蛋白棒脆脆的苦味_2c9847",
+    "name": "日本森永製菓 - 蛋白棒<脆脆的苦味>",
+    "price": "14.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ac15/b26b/550d/yWiLHEAZhI20251213155145_300.png",
+    "local_image": "日本森永製菓蛋白棒脆脆的苦味_2c9847.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "朝日MINTIAVOICE無糖檸檬薑糖30粒舒緩喉嚨_c82476",
+    "name": "朝日 - Mintia Voice (無糖)檸檬薑糖30粒(舒緩喉嚨)",
+    "price": "15.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/64ea/c27e/aa6c/WIEqWvtCDF20250721124935_300.png",
+    "local_image": "朝日MINTIAVOICE無糖檸檬薑糖30粒舒緩喉嚨_c82476.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "SOYJOY大豆果滋棒地瓜味_5621ab",
+    "name": "SOYJOY - 大豆果滋棒-地瓜味",
+    "price": "9.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/dc1b/7cae/ab11/sARikRRCBG20250717161901_300.png",
+    "local_image": "SOYJOY大豆果滋棒地瓜味_5621ab.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "CLEVER蛋白棒苦巧克力味_b7b197",
     "name": "Clever - 蛋白棒苦巧克力味",
-    "price": "26",
+    "price": "19.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/4cd5/d5d7/fc33/XKzFmwbeIq20250410172639_300.png",
     "local_image": "CLEVER蛋白棒苦巧克力味_b7b197.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "明治SAVAS大豆蛋白棒苦巧克力味45G_19795f",
-    "name": "明治 - Savas 大豆蛋白棒苦巧克力味(45g)",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8525/b3fd/5140/mmPCHdaMWp20240820161336_300.png",
-    "local_image": "明治SAVAS大豆蛋白棒苦巧克力味45G_19795f.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "HAMADAHEALTHYCLUBPROTEIN15巧克力味威化餅1包6塊_81ca93",
-    "name": "Hamada Healthy Club - PROTEIN15 巧克力味威化餅(1包 6塊)",
-    "price": "26",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/2cf8/2668/d4a8/GINIzhaPcc20220901193620_300.png",
-    "local_image": "HAMADAHEALTHYCLUBPROTEIN15巧克力味威化餅1包6塊_81ca93.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "SARAYALAKANTO草本無糖潤喉糖麝香葡萄草本口味30G_d3ad4f",
-    "name": "SARAYA -  Lakanto 草本無糖潤喉糖 麝香葡萄草本口味 (30g)",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/d431/12b0/ce4a/bjeFIOaXVx20250426173757_300.png",
-    "local_image": "SARAYALAKANTO草本無糖潤喉糖麝香葡萄草本口味30G_d3ad4f.png",
-    "source": "HKTVmall"
-  },
-  {
     "sku": "SARAYASARAYALAKANTO零熱量糖果牛奶咖啡口味60G_603459",
     "name": "SARAYA - Saraya Lakanto 零熱量糖果牛奶咖啡口味 60g",
-    "price": "27",
+    "price": "22.50",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/1bb0/4d04/8728/lHyilKotVy20240805164329_300.png",
     "local_image": "SARAYASARAYALAKANTO零熱量糖果牛奶咖啡口味60G_603459.png",
     "source": "HKTVmall"
   },
   {
+    "sku": "HAMADAHEALTHYCLUBPROTEIN15巧克力味威化餅1包6塊_81ca93",
+    "name": "Hamada Healthy Club - PROTEIN15 巧克力味威化餅(1包 6塊)",
+    "price": "6.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/2cf8/2668/d4a8/GINIzhaPcc20220901193620_300.png",
+    "local_image": "HAMADAHEALTHYCLUBPROTEIN15巧克力味威化餅1包6塊_81ca93.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "CLEVER蛋白棒牛奶巧克力味_2d25d1",
     "name": "Clever - 蛋白棒牛奶巧克力味",
-    "price": "26",
+    "price": "19.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/66ea/a065/5105/hSAKxZOGUv20250410170920_300.png",
     "local_image": "CLEVER蛋白棒牛奶巧克力味_2d25d1.png",
     "source": "HKTVmall"
   },
   {
+    "sku": "寶仙堂凄十MAXENERGY動力飲品50毫升男士強身瑪卡壯雄風提升耐力平行進口_6ca73c",
+    "name": "寶仙堂 - 凄十MAX ENERGY動力飲品(50毫升) | 男士強身。瑪卡壯雄風。提升耐力【平行進口】",
+    "price": "88.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/247c/2f9a/f88e/FwGuUwTNtj20231017155525_300.png",
+    "local_image": "寶仙堂凄十MAXENERGY動力飲品50毫升男士強身瑪卡壯雄風提升耐力平行進口_6ca73c.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "2H2D超級黑瑪卡黑30日份2H2D瑪卡男性保健壯腰保腎改善機能促進新陳代謝激發_e42f9b",
     "name": "2H&2D - 超級黑瑪卡．黑【30日份】2h2d_瑪卡_男性保健_壯腰保腎_改善機能_促進新陳代謝_激發男士活力",
-    "price": "28",
+    "price": "399.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/4050/0dbb/46ad/XSSEIsSAOJ20231110210904_300.png",
     "local_image": "2H2D超級黑瑪卡黑30日份2H2D瑪卡男性保健壯腰保腎改善機能促進新陳代謝激發_e42f9b.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本MEGABIGBOY46MM加大碼12片裝安全套避孕套保險套CONDOM_689cf6",
-    "name": "岡本 - MEGA BIG BOY 46mm加大碼【12片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "86.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a0c5/d9b6/9876/gRZuMTYLDM20250721124458_300.png",
-    "local_image": "岡本MEGABIGBOY46MM加大碼12片裝安全套避孕套保險套CONDOM_689cf6.png",
+    "sku": "岡本01MM極厚12片裝安全套避孕套保險套CONDOM_350063",
+    "name": "岡本 - 0.1mm 極厚【12片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "66.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f225/9179/dafe/pyOcHJaqyZ20250721120433_300.png",
+    "local_image": "岡本01MM極厚12片裝安全套避孕套保險套CONDOM_350063.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "岡本SMARTBOY31MM12片裝安全套避孕套保險套CONDOM_d8fdb0",
+    "name": "岡本 - SMART BOY 31mm【12片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "84.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b361/c06b/ea22/qMiYhsknKr20250721120342_300.png",
+    "local_image": "岡本SMARTBOY31MM12片裝安全套避孕套保險套CONDOM_d8fdb0.png",
     "source": "HKTVmall"
   },
   {
@@ -656,19 +744,11 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "寶仙堂凄十MAXENERGY動力飲品50毫升男士強身瑪卡壯雄風提升耐力平行進口_6ca73c",
-    "name": "寶仙堂 - 凄十MAX ENERGY動力飲品(50毫升) | 男士強身。瑪卡壯雄風。提升耐力【平行進口】",
-    "price": "27",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/247c/2f9a/f88e/FwGuUwTNtj20231017155525_300.png",
-    "local_image": "寶仙堂凄十MAXENERGY動力飲品50毫升男士強身瑪卡壯雄風提升耐力平行進口_6ca73c.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "JEX魅力蝴蝶超潤滑裝大碼8片裝_a5679b",
-    "name": "JEX - 魅力蝴蝶 超潤滑裝【大碼】8片裝",
-    "price": "54.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3031/d429/8dd7/hIVxiWGtDB20250717223822_300.png",
-    "local_image": "JEX魅力蝴蝶超潤滑裝大碼8片裝_a5679b.png",
+    "sku": "JEX魅力蝴蝶熱感12片裝安全套避孕套保險套CONDOM_b1a93c",
+    "name": "JEX - 魅力蝴蝶 熱感【12片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "42.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b795/9ebe/db25/ZSIbZhbdqQ20250717224919_300.png",
+    "local_image": "JEX魅力蝴蝶熱感12片裝安全套避孕套保險套CONDOM_b1a93c.png",
     "source": "HKTVmall"
   },
   {
@@ -680,14 +760,6 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "INTIMATELINEBREASTBOOSTER彈性緊緻豐胸霜BUSTUPGE_68769d",
-    "name": "intimateline - Breast Booster-彈性緊緻豐胸霜BUST UP Gel 100ml",
-    "price": "288.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/aca3/b66b/aeda/AVjtlbmrom20231211193810_300.png",
-    "local_image": "INTIMATELINEBREASTBOOSTER彈性緊緻豐胸霜BUSTUPGE_68769d.png",
-    "source": "HKTVmall"
-  },
-  {
     "sku": "相模相模009凸點10片裝安全套避孕套保險套CONDOM_bfdc58",
     "name": "相模 - 相模 0.09 凸點 10 片裝 安全套_避孕套_保險套_CONDOM",
     "price": "72.00",
@@ -696,19 +768,51 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "不二乳膠SKYNFEELPREMIUMPLUS5片裝安全套避孕套保險套CONDO_cc0fbd",
-    "name": "不二乳膠 - SKYNFEEL™ Premium Plus【5片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "49.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/2345/7e34/dee3/jLQXUGedHu20250424171748_300.png",
-    "local_image": "不二乳膠SKYNFEELPREMIUMPLUS5片裝安全套避孕套保險套CONDO_cc0fbd.png",
+    "sku": "岡本阿楞加倍水潤藍色36片裝安全套避孕套保險套CONDOM_d5169b",
+    "name": "岡本 - 阿楞 加倍水潤(藍色)＊【＊36片裝＊】＊安全套_避孕套_保險套_CONDOM",
+    "price": "76.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/31ce/bf4b/f574/kMlxhaLuww20250721115458_300.png",
+    "local_image": "岡本阿楞加倍水潤藍色36片裝安全套避孕套保險套CONDOM_d5169b.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "INTIMATELINEBREASTBOOSTER彈性緊緻豐胸霜BUSTUPGE_68769d",
+    "name": "intimateline - Breast Booster-彈性緊緻豐胸霜BUST UP Gel 100ml",
+    "price": "288.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/aca3/b66b/aeda/AVjtlbmrom20231211193810_300.png",
+    "local_image": "INTIMATELINEBREASTBOOSTER彈性緊緻豐胸霜BUSTUPGE_68769d.png",
     "source": "HKTVmall"
   },
   {
     "sku": "爆款加推夜狼金裝版10000瑪卡飲品50ML_9a2018",
     "name": "爆款加推 - 夜狼(金裝版)10000-瑪卡飲品(50ml)",
-    "price": "27",
+    "price": "76.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f974/c9fb/d65f/ppbdJKGeiP20250426165332_300.png",
     "local_image": "爆款加推夜狼金裝版10000瑪卡飲品50ML_9a2018.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "日本森永製菓蛋白棒香脆巧克力味_be74dd",
+    "name": "日本森永製菓 - 蛋白棒<香脆巧克力>味",
+    "price": "13.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a695/44d5/ee95/WncWGgwwUY20250522165257_300.png",
+    "local_image": "日本森永製菓蛋白棒香脆巧克力味_be74dd.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "JEX魅力蝴蝶超潤滑裝大碼8片裝_a5679b",
+    "name": "JEX - 魅力蝴蝶 超潤滑裝【大碼】8片裝",
+    "price": "54.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3031/d429/8dd7/hIVxiWGtDB20250717223822_300.png",
+    "local_image": "JEX魅力蝴蝶超潤滑裝大碼8片裝_a5679b.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "岡本003蘆薈水潤10片裝安全套避孕套保險套CONDOM_0b07ce",
+    "name": "岡本 - 0.03 蘆薈水潤【10片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "83.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/e649/407f/f3eb/jASjpsHXVE20250721123143_300.png",
+    "local_image": "岡本003蘆薈水潤10片裝安全套避孕套保險套CONDOM_0b07ce.png",
     "source": "HKTVmall"
   },
   {
@@ -720,11 +824,11 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本01MM極厚12片裝安全套避孕套保險套CONDOM_350063",
-    "name": "岡本 - 0.1mm 極厚【12片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "66.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f225/9179/dafe/pyOcHJaqyZ20250721120433_300.png",
-    "local_image": "岡本01MM極厚12片裝安全套避孕套保險套CONDOM_350063.png",
+    "sku": "JEX潤滑液精緻裝6GX4支專為女性打造_9f9f20",
+    "name": "JEX - 潤滑液-精緻裝 (6g x 4支)專為女性打造",
+    "price": "79.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/abfb/696f/1d0e/ifJArBvorc20250717222951_300.png",
+    "local_image": "JEX潤滑液精緻裝6GX4支專為女性打造_9f9f20.png",
     "source": "HKTVmall"
   },
   {
@@ -736,27 +840,11 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "JEX魅力蝴蝶熱感12片裝安全套避孕套保險套CONDOM_b1a93c",
-    "name": "JEX - 魅力蝴蝶 熱感【12片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "42.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b795/9ebe/db25/ZSIbZhbdqQ20250717224919_300.png",
-    "local_image": "JEX魅力蝴蝶熱感12片裝安全套避孕套保險套CONDOM_b1a93c.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "岡本SMARTBOY31MM12片裝安全套避孕套保險套CONDOM_d8fdb0",
-    "name": "岡本 - SMART BOY 31mm【12片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "84.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b361/c06b/ea22/qMiYhsknKr20250721120342_300.png",
-    "local_image": "岡本SMARTBOY31MM12片裝安全套避孕套保險套CONDOM_d8fdb0.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "JEX魅力蝴蝶003MOIST膠原蛋白透明質酸鈉極潤8片裝_d4e7a7",
-    "name": "JEX - 魅力蝴蝶 0.03 Moist 【膠原蛋白＋透明質酸鈉極潤】8片裝",
-    "price": "69.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/864f/c88d/0346/wvXTopoGzE20250717224022_300.png",
-    "local_image": "JEX魅力蝴蝶003MOIST膠原蛋白透明質酸鈉極潤8片裝_d4e7a7.png",
+    "sku": "岡本SKINLESS5006片裝安全套CONDOM_a91700",
+    "name": "岡本 - Skinless 500 (6 片裝)安全套CONDOM",
+    "price": "29.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0c25/14bc/04b7/oNLdvuAiRo20250721114640_300.png",
+    "local_image": "岡本SKINLESS5006片裝安全套CONDOM_a91700.png",
     "source": "HKTVmall"
   },
   {
@@ -776,35 +864,19 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "JEX潤滑液精緻裝6GX4支專為女性打造_9f9f20",
-    "name": "JEX - 潤滑液-精緻裝 (6g x 4支)專為女性打造",
-    "price": "79.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/abfb/696f/1d0e/ifJArBvorc20250717222951_300.png",
-    "local_image": "JEX潤滑液精緻裝6GX4支專為女性打造_9f9f20.png",
+    "sku": "JAPANMEDICAL黑之鐵人安全套12片裝_85eade",
+    "name": "Japan Medical - 黑之鐵人 安全套 12片裝",
+    "price": "47.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/2f94/69e3/5e9c/zsFwJhQkji20211223182402_300.png",
+    "local_image": "JAPANMEDICAL黑之鐵人安全套12片裝_85eade.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "相模009自然10片裝安全套避孕套保險套CONDOM_71d9d6",
-    "name": "相模 -  0.09 自然 10 片裝 安全套_避孕套_保險套_CONDOM",
-    "price": "72.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a5ec/d811/5707/ukFzZvVeap20250715204148_300.png",
-    "local_image": "相模009自然10片裝安全套避孕套保險套CONDOM_71d9d6.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "WANWAN犬日和雞肉配野菜狗狗鮮食包60G_3beea7",
-    "name": "Wanwan - 犬日和 雞肉配野菜 狗狗鮮食包 60g",
-    "price": "26",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/96a0/cf16/ab0b/TkqWqeGOvh20230411184829_300.png",
-    "local_image": "WANWAN犬日和雞肉配野菜狗狗鮮食包60G_3beea7.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "岡本LOVEDOME大碼12片裝安全套CONDOM_970f7e",
-    "name": "岡本 - Love Dome 大碼(12片裝) 安全套CONDOM",
-    "price": "49.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/9503/7daa/675c/LEeDPIJOrM20250721114531_300.png",
-    "local_image": "岡本LOVEDOME大碼12片裝安全套CONDOM_970f7e.png",
+    "sku": "不二乳膠SKYNFEELIR非乳膠10片裝安全套避孕套保險套CONDOM_5b1759",
+    "name": "不二乳膠 - SKYNFEEL™ iR非乳膠【10片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "69.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/b506/656f/ed34/KBnSdeJJDt20211229141836_300.png",
+    "local_image": "不二乳膠SKYNFEELIR非乳膠10片裝安全套避孕套保險套CONDOM_5b1759.png",
     "source": "HKTVmall"
   },
   {
@@ -816,35 +888,27 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "JAPANMEDICAL黑之鐵人安全套12片裝_85eade",
-    "name": "Japan Medical - 黑之鐵人 安全套 12片裝",
-    "price": "47.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/2f94/69e3/5e9c/zsFwJhQkji20211223182402_300.png",
-    "local_image": "JAPANMEDICAL黑之鐵人安全套12片裝_85eade.png",
+    "sku": "明治SAVAS大豆蛋白棒苦巧克力味45G_19795f",
+    "name": "明治 - Savas 大豆蛋白棒苦巧克力味(45g)",
+    "price": "17.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8525/b3fd/5140/mmPCHdaMWp20240820161336_300.png",
+    "local_image": "明治SAVAS大豆蛋白棒苦巧克力味45G_19795f.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本SKINLESS5006片裝安全套CONDOM_a91700",
-    "name": "岡本 - Skinless 500 (6 片裝)安全套CONDOM",
-    "price": "29.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0c25/14bc/04b7/oNLdvuAiRo20250721114640_300.png",
-    "local_image": "岡本SKINLESS5006片裝安全套CONDOM_a91700.png",
+    "sku": "WANWAN犬日和雞肉配野菜狗狗鮮食包60G_3beea7",
+    "name": "Wanwan - 犬日和 雞肉配野菜 狗狗鮮食包 60g",
+    "price": "9.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/96a0/cf16/ab0b/TkqWqeGOvh20230411184829_300.png",
+    "local_image": "WANWAN犬日和雞肉配野菜狗狗鮮食包60G_3beea7.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "日本森永製菓蛋白棒香脆巧克力味_be74dd",
-    "name": "日本森永製菓 - 蛋白棒<香脆巧克力>味",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a695/44d5/ee95/WncWGgwwUY20250522165257_300.png",
-    "local_image": "日本森永製菓蛋白棒香脆巧克力味_be74dd.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "岡本001潤滑液50G_4d3bfb",
-    "name": "岡本 - 001潤滑液(50g)",
+    "sku": "JEX魅力蝴蝶003MOIST膠原蛋白透明質酸鈉極潤8片裝_d4e7a7",
+    "name": "JEX - 魅力蝴蝶 0.03 Moist 【膠原蛋白＋透明質酸鈉極潤】8片裝",
     "price": "69.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/315b/2128/7c7d/DCUcZYXKYi20250721114251_300.png",
-    "local_image": "岡本001潤滑液50G_4d3bfb.png",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/864f/c88d/0346/wvXTopoGzE20250717224022_300.png",
+    "local_image": "JEX魅力蝴蝶003MOIST膠原蛋白透明質酸鈉極潤8片裝_d4e7a7.png",
     "source": "HKTVmall"
   },
   {
@@ -856,11 +920,35 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本001低黏版潤滑劑200G_7cfdfc",
-    "name": "岡本 - 001低黏版潤滑劑 - (200g)",
+    "sku": "岡本002超薄標準X緊貼12片裝PU安全套避孕套保險套CONDOM_8d2a23",
+    "name": "岡本 - 0.02超薄 標準x緊貼【12片裝】 PU安全套_避孕套_保險套_CONDOM",
+    "price": "99.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3568/9fbd/9545/ItmoYiacax20250721120056_300.png",
+    "local_image": "岡本002超薄標準X緊貼12片裝PU安全套避孕套保險套CONDOM_8d2a23.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "岡本JELLYMONSTER果凍怪獸熱果凍12片裝安全套避孕套保險套CONDOM_a9d61b",
+    "name": "岡本 - JELLY MONSTER 果凍怪獸 熱果凍【12片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "49.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f8f8/b5b7/d6e8/znuyHCRtoM20250725155530_300.png",
+    "local_image": "岡本JELLYMONSTER果凍怪獸熱果凍12片裝安全套避孕套保險套CONDOM_a9d61b.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推三眼仔立体雨傘47CM_8c49e2",
+    "name": "爆款加推 - 三眼仔立体雨傘 47cm",
+    "price": "99.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/f599/ec3b/a64a/voIBbVxAqA20221102135826_300.jpg",
+    "local_image": "爆款加推三眼仔立体雨傘47CM_8c49e2.jpg",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "KMPYUIRASHIKORUPREMIUM滿月飛機杯自慰器TENGA_092dd4",
+    "name": "KMP - YUIRA SHIKORU Premium【滿月】飛機杯_自慰器_TENGA",
     "price": "88.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/9576/371b/958c/iZBDTpOPnY20250721114057_300.png",
-    "local_image": "岡本001低黏版潤滑劑200G_7cfdfc.png",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/adc4/8a5a/a73c/slqeZPFjnh20241206143536_300.jpg",
+    "local_image": "KMPYUIRASHIKORUPREMIUM滿月飛機杯自慰器TENGA_092dd4.jpg",
     "source": "HKTVmall"
   },
   {
@@ -872,19 +960,11 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本阿楞加倍水潤藍色36片裝安全套避孕套保險套CONDOM_d5169b",
-    "name": "岡本 - 阿楞 加倍水潤(藍色)＊【＊36片裝＊】＊安全套_避孕套_保險套_CONDOM",
-    "price": "76.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/31ce/bf4b/f574/kMlxhaLuww20250721115458_300.png",
-    "local_image": "岡本阿楞加倍水潤藍色36片裝安全套避孕套保險套CONDOM_d5169b.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "不二乳膠SKYNFEELIR非乳膠大碼10片裝安全套避孕套保險套CONDOM_bbe1d2",
-    "name": "不二乳膠 - SKYNFEEL™ iR非乳膠 大碼【10片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "69.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/f06f/2374/768a/VcDJFTlIIe20211229142022_300.png",
-    "local_image": "不二乳膠SKYNFEELIR非乳膠大碼10片裝安全套避孕套保險套CONDOM_bbe1d2.png",
+    "sku": "TENGATENGALOTIONLIGHT170ML水性潤滑液_93b953",
+    "name": "TENGA - TENGA LOTION LIGHT 170ml 水性潤滑液",
+    "price": "80.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/e771/ffdd/a466/yKwWzUoeEx20241205151039_300.png",
+    "local_image": "TENGATENGALOTIONLIGHT170ML水性潤滑液_93b953.png",
     "source": "HKTVmall"
   },
   {
@@ -936,6 +1016,54 @@
     "source": "HKTVmall"
   },
   {
+    "sku": "岡本PUREMARGARET透明質酸果凍花花12片裝安全套CONDOM_f82774",
+    "name": "岡本 - Pure Margaret 透明質酸果凍花花(12片裝)安全套CONDOM",
+    "price": "59.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ab0a/4d64/99e2/pxkIRECzjv20250721114818_300.png",
+    "local_image": "岡本PUREMARGARET透明質酸果凍花花12片裝安全套CONDOM_f82774.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "不二乳膠SKYNFEELPREMIUMPLUS5片裝安全套避孕套保險套CONDO_cc0fbd",
+    "name": "不二乳膠 - SKYNFEEL™ Premium Plus【5片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "49.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/2345/7e34/dee3/jLQXUGedHu20250424171748_300.png",
+    "local_image": "不二乳膠SKYNFEELPREMIUMPLUS5片裝安全套避孕套保險套CONDO_cc0fbd.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "SAMOURAI女士便携沐浴洗髮護理套裝白玫瑰味1套_3bfb05",
+    "name": "Samourai - 女士便携沐浴洗髮護理套裝【白玫瑰味】1套",
+    "price": "49.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/de70/1cea/ab95/XHYkPVqICC20231007161446_300.png",
+    "local_image": "SAMOURAI女士便携沐浴洗髮護理套裝白玫瑰味1套_3bfb05.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "岡本LOVEDOME大碼12片裝安全套CONDOM_970f7e",
+    "name": "岡本 - Love Dome 大碼(12片裝) 安全套CONDOM",
+    "price": "49.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/9503/7daa/675c/LEeDPIJOrM20250721114531_300.png",
+    "local_image": "岡本LOVEDOME大碼12片裝安全套CONDOM_970f7e.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推日本制防霧清潔劑10ML_207e40",
+    "name": "爆款加推 - 日本制防霧清潔劑 10ml",
+    "price": "39.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/3836/91dd/286f/nCGYRrnrdG20220310134840_300.png",
+    "local_image": "爆款加推日本制防霧清潔劑10ML_207e40.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "SARAYALAKANTO草本無糖潤喉糖麝香葡萄草本口味30G_d3ad4f",
+    "name": "SARAYA -  Lakanto 草本無糖潤喉糖 麝香葡萄草本口味 (30g)",
+    "price": "19.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/d431/12b0/ce4a/bjeFIOaXVx20250426173757_300.png",
+    "local_image": "SARAYALAKANTO草本無糖潤喉糖麝香葡萄草本口味30G_d3ad4f.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "DOGGYMANDOGGYMANHAYASHI25張寵物濕紙巾_2217ca",
     "name": "DoggyMan - Doggyman Hayashi 25張 寵物濕紙巾",
     "price": "11.90",
@@ -984,14 +1112,6 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本003蘆薈水潤10片裝安全套避孕套保險套CONDOM_0b07ce",
-    "name": "岡本 - 0.03 蘆薈水潤【10片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "83.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/e649/407f/f3eb/jASjpsHXVE20250721123143_300.png",
-    "local_image": "岡本003蘆薈水潤10片裝安全套避孕套保險套CONDOM_0b07ce.png",
-    "source": "HKTVmall"
-  },
-  {
     "sku": "岡本003透明質酸水潤10片裝安全套避孕套保險套CONDOM_79e9e1",
     "name": "岡本 - 0.03 透明質酸水潤【10片裝】安全套_避孕套_保險套_CONDOM",
     "price": "83.00",
@@ -1008,19 +1128,19 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本002超薄標準X緊貼12片裝PU安全套避孕套保險套CONDOM_8d2a23",
-    "name": "岡本 - 0.02超薄 標準x緊貼【12片裝】 PU安全套_避孕套_保險套_CONDOM",
-    "price": "99.90",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3568/9fbd/9545/ItmoYiacax20250721120056_300.png",
-    "local_image": "岡本002超薄標準X緊貼12片裝PU安全套避孕套保險套CONDOM_8d2a23.png",
-    "source": "HKTVmall"
-  },
-  {
     "sku": "JAPANMEDICALTOUGHBLACK厚黑凸點安全套12片裝_c76742",
     "name": "Japan Medical - TOUGH BLACK 厚黑凸點安全套 12片裝",
     "price": "85.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/ec3a/9090/180c/rTvHOjWYMh20211223182440_300.png",
     "local_image": "JAPANMEDICALTOUGHBLACK厚黑凸點安全套12片裝_c76742.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "不二乳膠SKYNFEELIR非乳膠大碼10片裝安全套避孕套保險套CONDOM_bbe1d2",
+    "name": "不二乳膠 - SKYNFEEL™ iR非乳膠 大碼【10片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "69.00",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/f06f/2374/768a/VcDJFTlIIe20211229142022_300.png",
+    "local_image": "不二乳膠SKYNFEELIR非乳膠大碼10片裝安全套避孕套保險套CONDOM_bbe1d2.png",
     "source": "HKTVmall"
   },
   {
@@ -1037,14 +1157,6 @@
     "price": "88.00",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/88b8/9034/2c1a/RHDHEtkcBQ20241206143846_300.jpg",
     "local_image": "KMPYUIRASHIKORUPREMIUM陽光飛機杯自慰器TENGA_85eec2.jpg",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "KMPYUIRASHIKORUPREMIUM滿月飛機杯自慰器TENGA_092dd4",
-    "name": "KMP - YUIRA SHIKORU Premium【滿月】飛機杯_自慰器_TENGA",
-    "price": "88.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/adc4/8a5a/a73c/slqeZPFjnh20241206143536_300.jpg",
-    "local_image": "KMPYUIRASHIKORUPREMIUM滿月飛機杯自慰器TENGA_092dd4.jpg",
     "source": "HKTVmall"
   },
   {
@@ -1128,14 +1240,6 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本PUREMARGARET透明質酸果凍花花12片裝安全套CONDOM_f82774",
-    "name": "岡本 - Pure Margaret 透明質酸果凍花花(12片裝)安全套CONDOM",
-    "price": "59.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ab0a/4d64/99e2/pxkIRECzjv20250721114818_300.png",
-    "local_image": "岡本PUREMARGARET透明質酸果凍花花12片裝安全套CONDOM_f82774.png",
-    "source": "HKTVmall"
-  },
-  {
     "sku": "JAPANMEDICALPOCHE卡片盒橫紋波浪4片裝安全套避孕套保險套COND_c3c437",
     "name": "Japan Medical - Poche 卡片盒橫紋波浪【4片裝】 安全套/避孕套/保險套/CONDOM",
     "price": "29.90",
@@ -1165,22 +1269,6 @@
     "price": "99.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/cceb/2566/0aac/ltBfMUINst20220803194630_300.png",
     "local_image": "爆款加推日本製造接觸冷感毛巾花紋格仔日本毛巾運動毛巾冰巾_8195fc.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "爆款加推三眼仔立体雨傘47CM_8c49e2",
-    "name": "爆款加推 - 三眼仔立体雨傘 47cm",
-    "price": "99.90",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/f599/ec3b/a64a/voIBbVxAqA20221102135826_300.jpg",
-    "local_image": "爆款加推三眼仔立体雨傘47CM_8c49e2.jpg",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "爆款加推魔雪奇緣2透明直遮55CM紫_d4b164",
-    "name": "爆款加推 - 魔雪奇緣2 透明直遮 55cm 【紫】",
-    "price": "99.90",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/4029/7964/9c00/NANpLqpRQo20221102135906_300.jpg",
-    "local_image": "爆款加推魔雪奇緣2透明直遮55CM紫_d4b164.jpg",
     "source": "HKTVmall"
   },
   {
@@ -1226,17 +1314,9 @@
   {
     "sku": "DHC狗狗用關節保健素60粒_61b224",
     "name": "DHC - 狗狗用關節保健素【60粒】",
-    "price": "26",
+    "price": "69.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/28c2/d34c/c865/koigEkTfdI20230428174341_300.png",
     "local_image": "DHC狗狗用關節保健素60粒_61b224.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "SAMOURAI女士便携沐浴洗髮護理套裝白玫瑰味1套_3bfb05",
-    "name": "Samourai - 女士便携沐浴洗髮護理套裝【白玫瑰味】1套",
-    "price": "49.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/de70/1cea/ab95/XHYkPVqICC20231007161446_300.png",
-    "local_image": "SAMOURAI女士便携沐浴洗髮護理套裝白玫瑰味1套_3bfb05.png",
     "source": "HKTVmall"
   },
   {
@@ -1245,6 +1325,30 @@
     "price": "299.00",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/7fd7/64cb/6d0e/pDNaizjikh20231120205158_300.png",
     "local_image": "爆款加推一番賞高達模型系列2023I賞杯一套8隻_024688.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推SOYCONCEPT植物純素蛋白棒可可豆純素營養食品低碳水化合物大豆_7b265d",
+    "name": "爆款加推 - SOY CONCEPT 植物純素蛋白棒 可可豆 (純素營養食品低碳水化合物大豆)",
+    "price": "26.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/0a97/415e/e219/gxCTfxIdcK20240301134136_300.png",
+    "local_image": "爆款加推SOYCONCEPT植物純素蛋白棒可可豆純素營養食品低碳水化合物大豆_7b265d.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推SOYCONCEPT植物純素蛋白棒黑芝麻_7ee074",
+    "name": "爆款加推 - SOY CONCEPT 植物純素蛋白棒 黑芝麻",
+    "price": "26.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/c993/76f0/878a/nKPXPTrQSR20240301134108_300.png",
+    "local_image": "爆款加推SOYCONCEPT植物純素蛋白棒黑芝麻_7ee074.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推SOYCONCEPT植物純素蛋白棒杏仁_595879",
+    "name": "爆款加推 - SOY CONCEPT 植物純素蛋白棒 杏仁",
+    "price": "26.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/e3b1/0aea/7878/VQbBnNuCGj20240301134027_300.png",
+    "local_image": "爆款加推SOYCONCEPT植物純素蛋白棒杏仁_595879.png",
     "source": "HKTVmall"
   },
   {
@@ -1261,14 +1365,6 @@
     "price": "63.00",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0d81/a831/38ff/IjLuMwRTci20250721114747_300.png",
     "local_image": "岡本GROOVE大碼6片裝安全套避孕套保險套CONDOM_77cb82.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "TENGATENGALOTIONLIGHT170ML水性潤滑液_93b953",
-    "name": "TENGA - TENGA LOTION LIGHT 170ml 水性潤滑液",
-    "price": "80.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/e771/ffdd/a466/yKwWzUoeEx20241205151039_300.png",
-    "local_image": "TENGATENGALOTIONLIGHT170ML水性潤滑液_93b953.png",
     "source": "HKTVmall"
   },
   {
@@ -1298,7 +1394,7 @@
   {
     "sku": "RELOVE瞬淨KU溜零毛髮霜80ML_6341c8",
     "name": "RELOVE - 瞬淨-Ku溜零毛髮霜 80ml",
-    "price": "27",
+    "price": "238.00",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/4a28/fa2a/01e5/DfMIghTePz20241121152753_300.png",
     "local_image": "RELOVE瞬淨KU溜零毛髮霜80ML_6341c8.png",
     "source": "HKTVmall"
@@ -1317,6 +1413,22 @@
     "price": "900.00",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/d080/b945/f8d4/ALtxmleeSv20250322155242_300.png",
     "local_image": "蝶伊斯柯蘭城堡CHATEAUDESCLANSTHEPALEROSEX6750ML_fc2a96.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "家樂氏蛋白棒焦糖堅果口味_b73d00",
+    "name": "家樂氏 - 蛋白棒焦糖堅果口味",
+    "price": "16.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/dee4/bbcd/e54a/vDXdzllPzu20250412120956_300.png",
+    "local_image": "家樂氏蛋白棒焦糖堅果口味_b73d00.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "家樂氏蛋白棒莓果堅果味_1e95e8",
+    "name": "家樂氏 - 蛋白棒莓果堅果味",
+    "price": "16.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0ed9/3a3b/55ca/pFMJRVrFih20250412122835_300.png",
+    "local_image": "家樂氏蛋白棒莓果堅果味_1e95e8.png",
     "source": "HKTVmall"
   },
   {
@@ -1384,6 +1496,22 @@
     "source": "HKTVmall"
   },
   {
+    "sku": "岡本001潤滑液50G_4d3bfb",
+    "name": "岡本 - 001潤滑液(50g)",
+    "price": "69.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/315b/2128/7c7d/DCUcZYXKYi20250721114251_300.png",
+    "local_image": "岡本001潤滑液50G_4d3bfb.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "岡本001低黏版潤滑劑200G_7cfdfc",
+    "name": "岡本 - 001低黏版潤滑劑 - (200g)",
+    "price": "88.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/9576/371b/958c/iZBDTpOPnY20250721114057_300.png",
+    "local_image": "岡本001低黏版潤滑劑200G_7cfdfc.png",
+    "source": "HKTVmall"
+  },
+  {
     "sku": "岡本001高黏版潤滑劑200G_ac1153",
     "name": "岡本 - 001高黏版潤滑劑 - (200g)",
     "price": "88.00",
@@ -1392,11 +1520,11 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "岡本JELLYMONSTER果凍怪獸熱果凍12片裝安全套避孕套保險套CONDOM_a9d61b",
-    "name": "岡本 - JELLY MONSTER 果凍怪獸 熱果凍【12片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "49.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f8f8/b5b7/d6e8/znuyHCRtoM20250725155530_300.png",
-    "local_image": "岡本JELLYMONSTER果凍怪獸熱果凍12片裝安全套避孕套保險套CONDOM_a9d61b.png",
+    "sku": "爆款加推HALEOGO蛋白棒雙倍巧克力碎_b21e46",
+    "name": "爆款加推 - HALEO GO 蛋白棒 (雙倍巧克力碎)",
+    "price": "23.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/4007/7369/2c4a/VlmTFdhiNh20250428121538_300.png",
+    "local_image": "爆款加推HALEOGO蛋白棒雙倍巧克力碎_b21e46.png",
     "source": "HKTVmall"
   },
   {
@@ -1408,19 +1536,83 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "明治SAVAS蛋白棒牛奶巧克力口味厚裝60G_a385ac",
-    "name": "明治 - Savas蛋白棒牛奶巧克力口味(厚裝60g)",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/6247/bfdc/4b4e/DEHSxQBWAt20250916135509_300.png",
-    "local_image": "明治SAVAS蛋白棒牛奶巧克力口味厚裝60G_a385ac.png",
+    "sku": "松本清蛋白棒抹茶味_038f8a",
+    "name": "松本清 - 蛋白棒 抹茶味",
+    "price": "15.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/22dd/99d8/38bf/DSorNgbzjt20260212134655_300.png",
+    "local_image": "松本清蛋白棒抹茶味_038f8a.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "JEX激凸點持久8片裝安全套避孕套保險套CONDOM_75d58a",
-    "name": "JEX - 激 凸點持久【8片裝】安全套_避孕套_保險套_CONDOM",
-    "price": "44.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/c4ba/3da4/6eca/FllIIeapjf20250717224313_300.png",
-    "local_image": "JEX激凸點持久8片裝安全套避孕套保險套CONDOM_75d58a.png",
+    "sku": "松本清蛋白棒巧克力味_0f2216",
+    "name": "松本清 - 蛋白棒 巧克力味",
+    "price": "15.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/b522/1000/c780/GHgvwifSSp20260212144328_300.png",
+    "local_image": "松本清蛋白棒巧克力味_0f2216.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "松本清蛋白棒草莓味_f1ae16",
+    "name": "松本清 - 蛋白棒 草莓味",
+    "price": "15.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/1bf9/dbb8/3948/ANjZpcjNSU20260212150457_300.png",
+    "local_image": "松本清蛋白棒草莓味_f1ae16.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "日本森永製菓蛋白優格威化餅_76d2ac",
+    "name": "日本森永製菓 - 蛋白優格威化餅",
+    "price": "14.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a51f/7abe/a9f1/LkGLLfNlPL20260212153046_300.png",
+    "local_image": "日本森永製菓蛋白優格威化餅_76d2ac.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推STRONGHEART濃鬱牛奶巧克力棒_c15385",
+    "name": "爆款加推 - strongheart-濃鬱牛奶巧克力棒",
+    "price": "24.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f9f7/729f/218b/OkAqiNNkje20260212160936_300.png",
+    "local_image": "爆款加推STRONGHEART濃鬱牛奶巧克力棒_c15385.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推HALEOGO蛋白棒草莓牛奶_2de1b6",
+    "name": "爆款加推 - HALEO GO 蛋白棒 (草莓牛奶)",
+    "price": "23.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/0548/b980/3556/foXkqwtMrn20260212164435_300.png",
+    "local_image": "爆款加推HALEOGO蛋白棒草莓牛奶_2de1b6.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推無糖蛋白棒香草味NATURALMODE_0cb94b",
+    "name": "爆款加推 - 無糖蛋白棒(香草味)-NATURALMODE",
+    "price": "15.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/813c/9ac6/cc92/IfgcsbMflP20260212171119_300.png",
+    "local_image": "爆款加推無糖蛋白棒香草味NATURALMODE_0cb94b.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推迷你美顏方塊蛋白棒微甜杏仁TANPAKUOTOMECUBE_aadde7",
+    "name": "爆款加推 - 迷你美顏方塊蛋白棒(微甜杏仁)-TANPAKUOTOME CUBE",
+    "price": "32.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/5244/648e/324a/GJzGolDDhH20260212175607_300.png",
+    "local_image": "爆款加推迷你美顏方塊蛋白棒微甜杏仁TANPAKUOTOMECUBE_aadde7.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推迷你美顏方塊蛋白棒微甜可可TANPAKUOTOMECUBE_316545",
+    "name": "爆款加推 - 迷你美顏方塊蛋白棒(微甜可可)-TANPAKUOTOME CUBE",
+    "price": "32.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/dfd9/78ed/8158/rMfxVhdern20260212180559_300.png",
+    "local_image": "爆款加推迷你美顏方塊蛋白棒微甜可可TANPAKUOTOMECUBE_316545.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "爆款加推迷你美顏方塊蛋白棒微甜莓果味TANPAKUOTOMECUBE_246c32",
+    "name": "爆款加推 - 迷你美顏方塊蛋白棒(微甜莓果味)-TANPAKUOTOME CUBE",
+    "price": "32.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f03b/baa2/7be3/rDjGiukwIX20260212181654_300.png",
+    "local_image": "爆款加推迷你美顏方塊蛋白棒微甜莓果味TANPAKUOTOMECUBE_246c32.png",
     "source": "HKTVmall"
   },
   {
@@ -1429,6 +1621,14 @@
     "price": "66.00",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/d9ea/a11b/705c/ZVlJvInFnZ20250721120203_300.png",
     "local_image": "岡本012MM極厚10片裝安全套避孕套保險套CONDOM_d227fe.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "JEX激凸點持久8片裝安全套避孕套保險套CONDOM_75d58a",
+    "name": "JEX - 激 凸點持久【8片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "44.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/c4ba/3da4/6eca/FllIIeapjf20250717224313_300.png",
+    "local_image": "JEX激凸點持久8片裝安全套避孕套保險套CONDOM_75d58a.png",
     "source": "HKTVmall"
   },
   {
@@ -1448,43 +1648,27 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "SARAYASARAYALAKANTO零熱量糖果草莓牛奶60克_cc92f0",
-    "name": "SARAYA - Saraya Lakanto 零熱量糖果草莓牛奶 60 克",
-    "price": "27",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/3daa/b730/b8ef/ynAUwVEWzm20240805163815_300.png",
-    "local_image": "SARAYASARAYALAKANTO零熱量糖果草莓牛奶60克_cc92f0.png",
+    "sku": "岡本MEGABIGBOY46MM加大碼12片裝安全套避孕套保險套CONDOM_689cf6",
+    "name": "岡本 - MEGA BIG BOY 46mm加大碼【12片裝】安全套_避孕套_保險套_CONDOM",
+    "price": "86.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a0c5/d9b6/9876/gRZuMTYLDM20250721124458_300.png",
+    "local_image": "岡本MEGABIGBOY46MM加大碼12片裝安全套避孕套保險套CONDOM_689cf6.png",
+    "source": "HKTVmall"
+  },
+  {
+    "sku": "SARAYASARAYALAKANTO零熱量糖果抹茶牛奶口味60G_b3fe61",
+    "name": "SARAYA - Saraya Lakanto 零熱量糖果 抹茶牛奶口味 60g",
+    "price": "22.50",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/8775/fd84/4561/FpSfZPsQXK20240805162230_300.png",
+    "local_image": "SARAYASARAYALAKANTO零熱量糖果抹茶牛奶口味60G_b3fe61.png",
     "source": "HKTVmall"
   },
   {
     "sku": "日本森永製菓蛋白威化餅抹茶味_7ca1de",
     "name": "日本森永製菓 - 蛋白威化餅<抹茶>味",
-    "price": "26",
+    "price": "14.90",
     "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/da97/518d/2f34/rxPAaGSObG20240103165305_300.png",
     "local_image": "日本森永製菓蛋白威化餅抹茶味_7ca1de.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "朝日MINTIAVOICE無糖檸檬薑糖30粒舒緩喉嚨_c82476",
-    "name": "朝日 - Mintia Voice (無糖)檸檬薑糖30粒(舒緩喉嚨)",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/64ea/c27e/aa6c/WIEqWvtCDF20250721124935_300.png",
-    "local_image": "朝日MINTIAVOICE無糖檸檬薑糖30粒舒緩喉嚨_c82476.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "不二乳膠1500頭部收窄保濕啫喱12裝安全套避孕套保險套CONDOM_186039",
-    "name": "不二乳膠 - 1500 頭部收窄保濕啫喱【12裝】安全套_避孕套_保險套_CONDOM",
-    "price": "19.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/2eae/97be/7dc6/wFSHSNZsMT20231002150224_300.png",
-    "local_image": "不二乳膠1500頭部收窄保濕啫喱12裝安全套避孕套保險套CONDOM_186039.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "INTIMATELINEPRETTYBUM修臀護理緊緻霜BUMUPGEL100M_9c8e31",
-    "name": "intimateline - Pretty Bum-修臀護理緊緻霜Bum UP Gel 100ml",
-    "price": "268.00",
-    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/c678/b3ba/63ec/zlzVDLXhvA20231211194330_300.png",
-    "local_image": "INTIMATELINEPRETTYBUM修臀護理緊緻霜BUMUPGEL100M_9c8e31.png",
     "source": "HKTVmall"
   },
   {
@@ -1496,49 +1680,33 @@
     "source": "HKTVmall"
   },
   {
-    "sku": "SOYJOY大豆果滋棒藍莓味_584749",
-    "name": "SOYJOY - 大豆果滋棒-藍莓味",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/31b2/ac33/a455/ekmmcbeWzO20250717151738_300.png",
-    "local_image": "SOYJOY大豆果滋棒藍莓味_584749.png",
+    "sku": "相模009自然10片裝安全套避孕套保險套CONDOM_71d9d6",
+    "name": "相模 -  0.09 自然 10 片裝 安全套_避孕套_保險套_CONDOM",
+    "price": "72.00",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/a5ec/d811/5707/ukFzZvVeap20250715204148_300.png",
+    "local_image": "相模009自然10片裝安全套避孕套保險套CONDOM_71d9d6.png",
     "source": "HKTVmall"
   },
   {
-    "sku": "爆款加推蛋白棒巧克力草莓_0b6859",
-    "name": "爆款加推 - 蛋白棒巧克力(草莓)",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/ff50/d92a/9b8e/LNDlJWFFWN20250419154608_300.png",
-    "local_image": "爆款加推蛋白棒巧克力草莓_0b6859.png",
+    "sku": "爆款加推魔雪奇緣2透明直遮55CM紫_d4b164",
+    "name": "爆款加推 - 魔雪奇緣2 透明直遮 55cm 【紫】",
+    "price": "99.90",
+    "image_url": "https://cdn-mms.hktvmall.com/hktv/mms/uploadProductImage/4029/7964/9c00/NANpLqpRQo20221102135906_300.jpg",
+    "local_image": "爆款加推魔雪奇緣2透明直遮55CM紫_d4b164.jpg",
     "source": "HKTVmall"
   },
   {
-    "sku": "爆款加推HIGHCLEAR蛋白棒MINIBAR柳橙巧克力味1包2條_d6bef2",
-    "name": "爆款加推 - HIGH CLEAR 蛋白棒 mini BAR 柳橙巧克力味 1包2條",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/241d/bb8b/d26d/PtzQmLSSKh20250412140726_300.png",
-    "local_image": "爆款加推HIGHCLEAR蛋白棒MINIBAR柳橙巧克力味1包2條_d6bef2.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "岡本002超薄37MM大碼12片裝PU安全套避孕套保險套CONDOM_abfece",
-    "name": "岡本 - 0.02 超薄37mm大碼【12片裝】 PU安全套_避孕套_保險套_CONDOM",
-    "price": "113.00",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/4243/a391/f6ae/YyLGIgeBQM20250721123619_300.png",
-    "local_image": "岡本002超薄37MM大碼12片裝PU安全套避孕套保險套CONDOM_abfece.png",
-    "source": "HKTVmall"
-  },
-  {
-    "sku": "爆款加推蛋白棒黑巧克力穀物杏仁_ba1f08",
-    "name": "爆款加推 - 蛋白棒黑巧克力(穀物杏仁)",
-    "price": "26",
-    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/f7d2/1fcc/f0b1/VufkjJmqrf20250419153222_300.png",
-    "local_image": "爆款加推蛋白棒黑巧克力穀物杏仁_ba1f08.png",
+    "sku": "明治SAVAS蛋白棒牛奶巧克力口味厚裝60G_a385ac",
+    "name": "明治 - Savas蛋白棒牛奶巧克力口味(厚裝60g)",
+    "price": "23.90",
+    "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/6247/bfdc/4b4e/DEHSxQBWAt20250916135509_300.png",
+    "local_image": "明治SAVAS蛋白棒牛奶巧克力口味厚裝60G_a385ac.png",
     "source": "HKTVmall"
   },
   {
     "sku": "SOYJOY大豆果滋棒小型裝杏仁巧克力味草莓味藍莓味X各3支小型裝_978d80",
     "name": "SOYJOY - 大豆果滋棒小型裝-(杏仁巧克力味,草莓味,藍莓味)x各3支小型裝",
-    "price": "26",
+    "price": "79.90",
     "image_url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/61ff/9d6a/aab9/krYrbVPSzR20250717150547_300.png",
     "local_image": "SOYJOY大豆果滋棒小型裝杏仁巧克力味草莓味藍莓味X各3支小型裝_978d80.png",
     "source": "HKTVmall"

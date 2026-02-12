@@ -52,6 +52,12 @@ def generate_sku(name):
 
 def clean_price(price_str):
     if not price_str: return ''
+    # Try to find price after $ symbol first (e.g. $ 9.90)
+    dollar_match = re.search(r'\$\s*([\d,]+\.?\d*)', price_str)
+    if dollar_match:
+        return dollar_match.group(1).replace(',', '')
+        
+    # Fallback: simple extraction
     match = re.search(r'[\d,]+\.?\d*', price_str)
     return match.group().replace(',', '') if match else price_str
 
@@ -86,13 +92,14 @@ async def extract_products_from_page(page, session, existing_products):
         if image_url and not image_url.startswith('http'):
             image_url = "https:" + image_url if image_url.startswith('//') else "https://www.hktvmall.com" + image_url
             
-        print(f"Found new item: {name[:20]}... (${price})")
+        cleaned_price = clean_price(price)
+        print(f"Found new item: {name[:20]}... (Raw: {price} -> Clean: {cleaned_price})")
         local_image = await download_image(session, image_url, sku)
         
         existing_products.append({
             'sku': sku,
             'name': name,
-            'price': clean_price(price),
+            'price': cleaned_price,
             'image_url': image_url,
             'local_image': local_image,
             'source': 'HKTVmall'
